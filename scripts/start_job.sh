@@ -7,13 +7,13 @@
 #$(cd scripts/ ; sh email.sh)
 
 echo -e "\e[34mCreating variable file for each Ticket\e[0m"
-$(cd scripts/ ; sh createvariablefile.sh)
+$(cd /var/lib/awx/projects/_18__git_expansion_demo/scripts/ ; sh createvariablefile.sh)
 
 
-V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
+V_ticket=`cat /var/lib/awx/projects/_18__git_expansion_demo/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
 for i in ${V_ticket[@]}
 do
 
-  ansible-playbook storage_expansion.yaml --extra-vars="myvarfile=var_file/${i}.yaml"
+  ansible-playbook storage_expansion.yaml --extra-vars="myvarfile=/var/lib/awx/projects/_18__git_expansion_demo/var_file/${i}.yaml"
 
 done

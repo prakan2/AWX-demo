@@ -1,10 +1,10 @@
 ---
-- hosts: localhost
+- hosts: all
   gather_facts: no
   tasks:
   - name: Ansible delete file 
     find:
-      paths: ./reports/
+      paths: "/var/lib/awx/projects/_18__git_expansion_demo/reports/"
       patterns: "*.txt"
     register: files_to_delete
     no_log: True
@@ -17,12 +17,14 @@
     no_log: True
   
   - name: calling servicenow validation script
-    shell: $(cd ./scripts/ ; sh validate_servicenow_file.sh)
+#    shell: $(cd ./scripts/ ; sh validate_servicenow_file.sh)
+    script: ./scripts/validate_servicenow_file.sh
+ #   args:
+#    #      chdir: "./scripts/"
     register: test_validation
-    no_log: True
-
+#        #    no_log: True
+#
   - name: Run a script
     script: ./scripts/email.sh
     register: test
-    no_log: True
- 
+#                  #    no_log: True

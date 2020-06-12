@@ -1,11 +1,11 @@
 ---
-- hosts: localhost
+- hosts: all
   connection: local
   gather_facts: no
   tasks:
   - name: Ansible delete file
     find:
-      paths: ./var_file/
+      paths: /var/lib/awx/projects/_18__git_expansion_demo/var_file/
       patterns: "*.yaml"
     register: files_to_delete
     no_log: True
