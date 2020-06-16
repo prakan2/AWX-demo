@@ -1,12 +1,12 @@
 Ticket: RITM2443924
-hostname: test_bnpp
+hostname: test_Ansible_host
 extension_volume_size: 5 
 extension_volume_count: 2
-init: [100001000088,100000088080]
-hostId: test_bnpp_IG
-maskingViewId: test_bnpp_MV
-storageGroupId: test_bnpp_SG
-remote_storage_group: test_bnpp_SG
+init: [ 50000972082fd910,50000972082fd911]
+hostId: Ansible_Host_IG
+maskingViewId: Ansible_Host_MV
+storageGroupId: Ansible_Host_SG
+remote_storage_group: test_Ansible_SG
 Password: smc
 Username: smc
 unisphere_url: 'https://10.241.210.217:8443'
@@ -14,6 +14,6 @@ sloId: Diamond
 srpId: SRP_1
 symmetrixId: 000197600361
 remoteSymmId: 000197600362
-portgroup: Unisphere_2_PG
+portgroup: Ansible_Host_PG
 smtp_server: mailhub.lss.emc.com
 email_id: Nishu.Prakash@emc.com

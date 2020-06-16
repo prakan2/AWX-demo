@@ -2,7 +2,7 @@ Ticket: RITM2443926
 hostname: sin00wert
 extension_volume_size: 5 
 extension_volume_count: 1
-init: [1000098789,1998880000]
+init: [1000098789,1998880000]
 hostId: sin00wert_IG
 maskingViewId: sin00wert_MV
 storageGroupId: sin00wert_SG
