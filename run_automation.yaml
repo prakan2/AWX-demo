@@ -28,11 +28,6 @@
     ignore_errors: yes
 
 
-  - name: Run a script
-    script: ./scripts/createvariablefile.sh
-    register: test
-#    no_log: True
-
 
   - name: Run a script
     script: ./scripts/start_job.sh
