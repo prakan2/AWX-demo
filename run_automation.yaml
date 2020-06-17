@@ -37,5 +37,5 @@
   - name: Run a script
     script: ./scripts/email_success_report.sh
     register: test
-    no_log: True
+#    no_log: True
 
