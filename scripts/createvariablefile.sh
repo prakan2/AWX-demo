@@ -1,11 +1,11 @@
 #current_dir='/var/lib/awx/projects/_46__fiserv_storage_expansion'
 #current_dir='..'
 current_dir='/var/lib/awx/projects/_18__git_expansion_demo'
-V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
+V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
         for i in ${V_ticket[@]}
         do
-          V_host=`cat $current_dir/final_value.txt | grep -w $i | awk -F "," '{print $3}' | awk -F ": '" '{print $2}' | awk -F "'" '{print $1}'`
-          Wwn=`cat $current_dir/final_value.txt | grep -w $i | awk -F "wwn':'" '{print $2}' | awk -F "'" '{print $1}'`
+          V_host=`cat final_value.txt | grep -w $i | awk -F "," '{print $3}' | awk -F ": '" '{print $2}' | awk -F "'" '{print $1}'`
+          Wwn=`cat final_value.txt | grep -w $i | awk -F "wwn':'" '{print $2}' | awk -F "'" '{print $1}'`
           if [ -z $V_host ]
           then
           V_host=`grep -w $Wwn $current_dir/config/config.txt | awk -F ':' '{print $1}'`
@@ -19,9 +19,9 @@ V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ":
           echo "Ticket: $i">>$current_dir/var_file/${i}.yaml
         #  V_host=`cat ../final_value.txt | grep -w $i | awk -F "," '{print $3}' | awk -F ": '" '{print $2}' | awk -F "'" '{print $1}'`
           echo "hostname: $V_host">>$current_dir/var_file/${i}.yaml
-          Lun_size=`cat $current_dir/final_value.txt | grep -w $i | awk -F "," '{print $2}' | awk -F ": '" '{ print $2}' | awk -F "GB'" '{print $1}'`
+          Lun_size=`cat final_value.txt | grep -w $i | awk -F "," '{print $2}' | awk -F ": '" '{ print $2}' | awk -F "GB'" '{print $1}'`
           echo "extension_volume_size: $Lun_size">>$current_dir/var_file/${i}.yaml
-          Number_of_volume=`cat $current_dir/final_value.txt | grep -w $i | awk -F "," '{print $4}' | awk -F "'" '{print $4}'`
+          Number_of_volume=`cat final_value.txt | grep -w $i | awk -F "," '{print $4}' | awk -F "'" '{print $4}'`
           echo "extension_volume_count: $Number_of_volume">>$current_dir/var_file/${i}.yaml
         #  Wwn=`cat ../final_value.txt | grep -w $i | awk -F "wwn':'" '{print $2}' | awk -F "'" '{print $1}'`
           echo "init: [$Wwn]">>$current_dir/var_file/${i}.yaml
@@ -41,7 +41,7 @@ V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ":
           echo "email_id: nishu.prakash@emc.com">>$current_dir/var_file/${i}.yaml
 
         done
-V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
+V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
 for i in ${V_ticket[@]}
 do
 
