@@ -3,9 +3,18 @@
   connection: local
   gather_facts: no
   tasks:
+  - name: Ansible remove existing var file
+    file:
+#      path: ./var_file/success_report.txt
+      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/success_report.txt"
+      state: absent
+    no_log: True
+    ignore_errors: yes
+
   - name: Ansible delete file
     find:
-      paths: /var/lib/awx/projects/_18__git_expansion_demo/var_file/
+#      paths: "./var_file/"
+      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/"
       patterns: "*.yaml"
     register: files_to_delete
     no_log: True
@@ -20,4 +29,10 @@
   - name: Run a script
     script: ./scripts/start_job.sh
     register: test
-    no_log: True
+#    no_log: True
+#
+  - name: Run a script
+    script: ./scripts/email_success_report.sh
+    register: test
+#    no_log: True
+
