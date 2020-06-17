@@ -17,14 +17,15 @@
       paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/"
       patterns: "*.yaml"
     register: files_to_delete
-    no_log: True
+#    no_log: True
 
   - name: Ansible remove existing var file
     file:
       path: "{{ item.path }}"
       state: absent
     with_items: "{{ files_to_delete.files }}"
-    no_log: True
+#    no_log: True
+    ignore_errors: yes
 
   - name: Run a script
     script: ./scripts/start_job.sh
