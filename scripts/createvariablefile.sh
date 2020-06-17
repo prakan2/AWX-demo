@@ -41,4 +41,10 @@ V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ":
           echo "email_id: nishu.prakash@emc.com">>$current_dir/var_file/${i}.yaml
 
         done
+V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
+for i in ${V_ticket[@]}
+do
 
+  ansible-playbook storage_expansion.yaml --extra-vars="myvarfile=$current_dir/var_file/${i}.yaml"
+
+done
