@@ -1,5 +1,5 @@
 Ticket: RITM2443924
-hostname: test_Ansible_host
+hostname: Ansible_host
 extension_volume_size: 5 
 extension_volume_count: 2
 init: [ 50000972082fd910,50000972082fd911]

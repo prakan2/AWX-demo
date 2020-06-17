@@ -1,12 +1,12 @@
 Ticket: RITM2443926
-hostname: sin00wert
+hostname: sinNishu
 extension_volume_size: 5 
 extension_volume_count: 1
 init: [1000098789,1998880000]
-hostId: sin00wert_IG
-maskingViewId: sin00wert_MV
-storageGroupId: sin00wert_SG
-remote_storage_group: sin00wert_SG
+hostId: sinNishu_IG
+maskingViewId: sinNishu_MV
+storageGroupId: sinNishu_SG
+remote_storage_group: sinNishu_SG
 Password: smc
 Username: smc
 unisphere_url: 'https://10.241.210.217:8443'
@@ -14,6 +14,6 @@ sloId: Diamond
 srpId: SRP_1
 symmetrixId: 000197600361
 remoteSymmId: 000197600362
-portgroup: Unisphere_2_PG
+portgroup: sinNishu_PG
 smtp_server: mailhub.lss.emc.com
 email_id: Nishu.Prakash@emc.com

@@ -1,2 +1,1 @@
-number: RITM2443924, 'Increase Size of Group File Share': '5 GB', 'host': 'test_bnpp','number of volume':'2','wwn':'100001000088,100000088080'
-number: RITM2443926, 'Increase Size of Group File Share': '5 GB', 'host': 'sin00wert','number of volume':'1','wwn':''
+number: RITM2443924, 'Increase Size of Group File Share': '5 GB', 'host': 'Ansible_Host','number of volume':'2','wwn':'100001000088,100000088080'

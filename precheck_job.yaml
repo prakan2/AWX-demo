@@ -4,7 +4,7 @@
   tasks:
   - name: Ansible delete file 
     find:
-      paths: "/var/lib/awx/projects/_18__git_expansion_demo/reports/"
+      paths:  "/var/lib/awx/projects/_18__git_expansion_demo/reports/"
       patterns: "*.txt"
     register: files_to_delete
     no_log: True
@@ -18,15 +18,14 @@
   
   - name: calling servicenow validation script
 #    shell: $(cd ./scripts/ ; sh validate_servicenow_file.sh)
-    script: /var/lib/awx/projects/_18__git_expansion_demo/scripts/validate_servicenow_file.sh
-
-#    script: ./scripts/validate_servicenow_file.sh
+    #script: /var/lib/awx/projects/_18__git_expansion_demo/scripts/validate_servicenow_file.sh
+    script: ./scripts/validate_servicenow_file.sh
  #   args:
 #    #      chdir: "./scripts/"
     register: test_validation
 #        #    no_log: True
 #
   - name: Run a script
-    script: /var/lib/awx/projects/_18__git_expansion_demo/scripts/email.sh
+    script: ./scripts/email.sh
     register: test
 #                  #    no_log: True
