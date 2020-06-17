@@ -34,8 +34,8 @@
     register: test
 #    no_log: True
 #
-#  - name: Run a script
-#    script: ./scripts/email_success_report.sh
-#    register: test
-#    no_log: True
+  - name: Run a script
+    script: ./scripts/email_success_report.sh
+    register: test
+    no_log: True
 
