@@ -25,7 +25,7 @@
       state: absent
     with_items: "{{ files_to_delete.files }}"
 #    no_log: True
-    ignore_errors: yes
+#    ignore_errors: yes
 
 
 
@@ -33,9 +33,12 @@
     script: ./scripts/createvariablefile.sh
     register: test
 #    no_log: True
-#
-  - name: Run a script
-    script: ./scripts/email_success_report.sh
-    register: test
-#    no_log: True
 
+#  - name: Run a script
+#    script: ./scripts/email_success_report.sh
+#    register: test
+#    no_log: True
+  - name: Print the success report
+    debug: 
+      msg: 
+        - "Success Report: {{ lookup('file','/var/lib/awx/projects/_18__git_expansion_demo/var_file/success_report.txt') }}" 

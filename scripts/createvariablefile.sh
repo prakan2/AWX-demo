@@ -36,7 +36,7 @@ V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ":
           echo "srpId: SRP_1">>$current_dir/var_file/${i}.yaml
           echo "symmetrixId: 000197600361">>$current_dir/var_file/${i}.yaml
           echo "remoteSymmId: 000197600362">>$current_dir/var_file/${i}.yaml
-          echo "portgroup: Unisphere_2_PG">>$current_dir/var_file/${i}.yaml
+          echo "portgroup: ${V_host}_PG">>$current_dir/var_file/${i}.yaml
           echo "smtp_server: mailhub.lss.emc.com">>$current_dir/var_file/${i}.yaml
           echo "email_id: nishu.prakash@emc.com">>$current_dir/var_file/${i}.yaml
 
