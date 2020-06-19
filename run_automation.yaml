@@ -3,18 +3,40 @@
   connection: local
   gather_facts: no
   tasks:
+  - name: Running prechecks to delete the previous reports
+    find:
+      paths: "/var/lib/awx/projects/_18__git_expansion_demo/reports/"
+      patterns: "*.txt"
+    register: files_to_delete
+    ignore_errors: yes
+
+  - name: Ansible remove existing reports for the precheck
+    file:
+      path: "{{ item.path }}"
+      state: absent
+    with_items: "{{ files_to_delete.files }}"
+    ignore_errors: yes
+  
+  - name: calling servicenow validation script
+    script: ./scripts/validate_servicenow_file.sh
+    register: test_validation
+  
+  - name: Run a script
+    script: ./scripts/email.sh
+    register: test
+
   - name: Ansible remove existing var file
     file:
-#      path: ./var_file/success_report.txt
-      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/success_report.txt"
+      path: ./var_file/success_report.txt
+#      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/success_report.txt"
       state: absent
     no_log: True
     ignore_errors: yes
 
   - name: Ansible delete file
     find:
-#      paths: "./var_file/"
-      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/"
+      paths: "./var_file/"
+#      paths: "/var/lib/awx/projects/_18__git_expansion_demo/var_file/"
       patterns: "*.yaml"
     register: files_to_delete
 #    no_log: True

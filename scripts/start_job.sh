@@ -1,12 +1,6 @@
 #!/bin/bash
-#echo -e "\e[34mDoing validation of Servicenow request file\e[0m"
-#$(cd scripts/ ; sh validate_servicenow_file.sh)
 
-
-#echo -e "\e[34mSending validation report for Servicenow request file\e[0m"
-#$(cd scripts/ ; sh email.sh)
 current_dir='/var/lib/awx/projects/_18__git_expansion_demo'
-#current_dir='.'
 
 echo -e "\e[34mCreating variable file for each Ticket\e[0m"
 $(cd $current_dir/scripts/ ; sh createvariablefile.sh)
