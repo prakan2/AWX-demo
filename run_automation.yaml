@@ -22,7 +22,7 @@
     register: test_validation
   
   - name: Run a script
-    script: "/var/lib/awx/projects/_18__git_expansion_demo/scripts/email.sh"
+    script: ./scripts/email.sh
     register: test
 
   - name: Ansible remove existing var file
