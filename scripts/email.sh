@@ -1,2 +1,4 @@
 echo "Sending precheck validation report of Servicenow Ticket which are currently in queue:"
-mailx  -s "Precheck validation reports $i" -S smtp="mailhub.lss.emc.com" "nishu.prakash@emc.com"<meregedreport.txt
+#$(cd /var/lib/awx/projects/_46__fiserv_storage_expansion/reports/ ; cat RITM* > ./meregedreport.txt )
+$(cd /var/lib/awx/projects/_18__git_expansion_demo/reports/ ; cat RITM* > ./meregedreport.txt )
+mailx  -s "Precheck validation reports $i" -S smtp="mailhub.lss.emc.com" "h.shekhar@emc.com"</var/lib/awx/projects/_18__git_expansion_demo/reports/meregedreport.txt

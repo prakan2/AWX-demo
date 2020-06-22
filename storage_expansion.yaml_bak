@@ -3,7 +3,7 @@
   connection: local
   gather_facts: no
   vars_files: "{{ myvarfile }}"
-  tasks:
+  tasks:  
   - name: Getting detail-info of specific storage group
     block:
       - name: Getting detail-info of specific storage group
@@ -23,7 +23,7 @@
           msg: 'I caught an error'
       - shell: echo -e "Hi Team  \n\nTask- Getting detail-info of specific storage group- FAILED\n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
       - meta: end_play
-
+     
 
   - name: volume creation for an storage group
     block:
@@ -38,8 +38,8 @@
           status_code: 201,200
           body_format: json
           body:
-            {
-            "editStorageGroupActionParam": {
+            {  
+            "editStorageGroupActionParam": {  
             "expandStorageGroupParam": {
             "addVolumeParam": {
             "num_of_vols": "{{ extension_volume_count }}",
@@ -55,9 +55,10 @@
             }
             }
             }
-        register: lun_addition
+
+        register: volume_extension
       - debug:
-          msg: "{{ lun_addition }}"
+          msg: "{{ volume_extension }}"
     rescue:
       - debug:
           msg: 'I caught an error'
@@ -66,7 +67,7 @@
 
   - name: Getting the device details information of storage group
     block:
-      - name: Getting the device details information of storage group
+      - name: Getting the device details information of storage group      
         uri:
           url: "{{ unisphere_url }}/univmax/restapi/90/sloprovisioning/symmetrix/{{ symmetrixId }}/volume?volume_identifier={{ Ticket }}&storageGroupId={{ storageGroupId }}"
           method: GET
@@ -76,9 +77,9 @@
           force_basic_auth: yes
           status_code: 201,200
         register: volume_details
-    #  - name: list of wwn
-     #   debug:
-      #    msg: "{{ volume_details.json.resultList.result|map(attribute='volumeId')|list }}"
+      - name: list of wwn
+        debug:
+          msg: "{{ volume_details.json.resultList.result|map(attribute='volumeId')|list }}"
     rescue:
       - debug:
           msg: 'I caught an error'
@@ -86,29 +87,27 @@
       - meta: end_play
 
 
- # - name: Fetching created device wwn information of the devices in the storage group
- #   block:
- #     - name: Fetching created device wwn information of the devices in the storage group
- #       uri:
- #         url: "{{ unisphere_url }}/univmax/restapi/90/sloprovisioning/symmetrix/{{ symmetrixId }}/volume/{{ item }}"
- #         method: GET
- #         validate_certs: no
- #         user: "{{ Username }}"
- #         password: "{{ Password }}"
- #         force_basic_auth: yes
- #         status_code: 201,200
- #       register: device_wwn_details
- #       with_items:
- #         - "{{ volume_details.json.resultList.result|map(attribute='volumeId')|list }}"
-    #  - name: list of wwn
-     #   debug:
-     #     msg: "{{ device_wwn_details.results|map(attribute='json.wwn')|list }}"
+  - name: Fetching created device wwn information of the devices in the storage group
+    block:
+      - name: Fetching created device wwn information of the devices in the storage group
+        uri:
+          url: "{{ unisphere_url }}/univmax/restapi/90/sloprovisioning/symmetrix/{{ symmetrixId }}/volume/{{ item }}"
+          method: GET
+          validate_certs: no
+          user: "{{ Username }}"
+          password: "{{ Password }}"
+          force_basic_auth: yes
+          status_code: 201,200
+        register: device_wwn_details
+        with_items:
+          - "{{ volume_details.json.resultList.result|map(attribute='volumeId')|list }}"
+      - name: list of wwn
+        debug:
+          msg: "{{ device_wwn_details.results|map(attribute='json.wwn')|list }}"
 
-#      - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
-     # - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | tee /var/lib/awx/projects/_18__git_expansion_demo/var_file/success_report.txt
-   # rescue:
-    #  - debug:
-    #      msg: 'I caught an error'
-    #  - shell: echo -e "Hi Team  \n\nTask- Fetching created device wwn information of the devices in the storage group- FAILED \n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
-    #  - meta: end_play
-
+      - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
+    rescue:
+      - debug:
+          msg: 'I caught an error'
+      - shell: echo -e "Hi Team  \n\nTask- Fetching created device wwn information of the devices in the storage group- FAILED \n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
+      - meta: end_play

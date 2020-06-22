@@ -1,8 +1,8 @@
 ---
-- hosts: all
-  gather_facts: no
+#- hosts: all
+#  gather_facts: no
   tasks:
-  - name: Ansible delete file
+  - name: Ansible delete file 
     find:
       paths: "/var/lib/awx/projects/_18__git_expansion_demo/reports/"
 #      paths: "./reports/"
@@ -18,7 +18,7 @@
     with_items: "{{ files_to_delete.files }}"
     ignore_errors: yes
 #    no_log: True
-
+  
   - name: calling servicenow validation script
     script: ./scripts/validate_servicenow_file.sh
     register: test_validation
@@ -27,4 +27,4 @@
     script: ./scripts/email.sh
     register: test
 #    no_log: True
-
+ 
