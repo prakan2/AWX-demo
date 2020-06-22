@@ -5,14 +5,16 @@
 
 #echo -e "\e[34mSending validation report for Servicenow request file\e[0m"
 #$(cd scripts/ ; sh email.sh)
-current_dir='/var/lib/awx/projects/_18__git_expansion_demo'
+
+#current_dir='/var/lib/awx/projects/_46__fiserv_storage_expansion'
 #current_dir='.'
+current_dir='/var/lib/awx/projects/_18__git_expansion_demo'
 
 echo -e "\e[34mCreating variable file for each Ticket\e[0m"
 $(cd $current_dir/scripts/ ; sh createvariablefile.sh)
 
 
-V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
+V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
 for i in ${V_ticket[@]}
 do
 
