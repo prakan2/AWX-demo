@@ -12,13 +12,13 @@ V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2
           fi
           if [ -z $Wwn ]
           then
-          Wwn=`cat $current_dir/config/config.txt | grep -w $V_host | awk -F ":" '{print $2}'`
+          Wwn=`cat config/config.txt | grep -w $V_host | awk -F ":" '{print $2}'`
           fi
 
-          touch $current_dir/var_file/${i}.yaml
+          touch var_file/${i}.yaml
           echo "Ticket: $i">>$current_dir/var_file/${i}.yaml
         #  V_host=`cat ../final_value.txt | grep -w $i | awk -F "," '{print $3}' | awk -F ": '" '{print $2}' | awk -F "'" '{print $1}'`
-          echo "hostname: $V_host">>$current_dir/var_file/${i}.yaml
+          echo "hostname: $V_host">>var_file/${i}.yaml
           Lun_size=`cat final_value.txt | grep -w $i | awk -F "," '{print $2}' | awk -F ": '" '{ print $2}' | awk -F "GB'" '{print $1}'`
           echo "extension_volume_size: $Lun_size">>$current_dir/var_file/${i}.yaml
           Number_of_volume=`cat final_value.txt | grep -w $i | awk -F "," '{print $4}' | awk -F "'" '{print $4}'`
