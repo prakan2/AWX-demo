@@ -26,6 +26,14 @@
     with_items: "{{ files_to_delete.files }}"
     no_log: True
 
+
+  - name: Run a script
+    script: ./scripts/createvariablefile.sh
+    register: test
+#    no_log: True
+  - debug:
+      msg: "{{ test }}" 
+
   - name: Run a script
     script: ./scripts/start_job.sh
     register: test
