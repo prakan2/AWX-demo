@@ -6,7 +6,7 @@
   - name: Ansible remove existing var file
     file:
 #      path: ./var_file/success_report.txt
-      paths: "/var/lib/awx/projects/_46__fiserv_storage_expansion/var_file/success_report.txt"
+      paths: "/var/lib/awx/projects/_24__storage_new/var_file/success_report.txt"
       state: absent
     no_log: True
     ignore_errors: yes
@@ -14,7 +14,7 @@
   - name: Ansible delete file
     find:
 #      paths: "./var_file/"
-      paths: "/var/lib/awx/projects/_46__fiserv_storage_expansion/var_file/"
+      paths: "/var/lib/awx/projects/_24__storage_new/var_file/"
       patterns: "*.yaml"
     register: files_to_delete
     no_log: True

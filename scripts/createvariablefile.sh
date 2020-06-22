@@ -1,6 +1,6 @@
 #current_dir='/var/lib/awx/projects/_46__fiserv_storage_expansion'
 #current_dir='..'
-current_dir='/var/lib/awx/projects/_22__storage_new'
+current_dir='/var/lib/awx/projects/_24__storage_new'
 V_ticket=`cat $current_dir/final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
         for i in ${V_ticket[@]}
         do

@@ -106,7 +106,7 @@
           msg: "{{ device_wwn_details.results|map(attribute='json.wwn')|list }}"
 
 #      - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | mailx  -s "Update on ticket {{ Ticket }}" -S smtp="{{ smtp_server }}" "{{ email_id }}"
-      - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | tee /var/lib/awx/projects/_22__storage_new/var_file/success_report.txt
+      - shell: echo -e "Hi Team  \n\n{{ Ticket }} request for storage expansion - Successful \n\nDevice WWN:{{ device_wwn_details.results|map(attribute='json.wwn')|list }} \n\nDevice ID:{{ device_wwn_details.results|map(attribute='json.volumeId')|list }} \n\nSize info in GB:{{ device_wwn_details.results|map(attribute='json.cap_gb')|list }}  \n\nRegards" | tee /var/lib/awx/projects/_24__storage_new/var_file/success_report.txt
     rescue:
       - debug:
           msg: 'I caught an error'

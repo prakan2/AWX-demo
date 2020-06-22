@@ -4,7 +4,7 @@
 #-  tasks:
 - name: Ansible delete file 
   find:
-    paths: "/var/lib/awx/projects/_22__storage_new/reports/"
+    paths: "/var/lib/awx/projects/_24__storage_new/reports/"
     paths: "./reports/"
     patterns: "*.txt"
   register: files_to_delete
