@@ -1,7 +1,4 @@
 ---
-#- hosts: all
-#  gather_facts: no
-#-  tasks:
 - name: Ansible delete file 
   find:
     paths: "/var/lib/awx/projects/_24__storage_new/reports/"
