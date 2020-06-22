@@ -9,10 +9,9 @@
 #current_dir='/var/lib/awx/projects/_46__fiserv_storage_expansion'
 #current_dir='.'
 current_dir='/var/lib/awx/projects/_24__storage_new'
-
 echo -e "\e[34mCreating variable file for each Ticket\e[0m"
-#$(cd $current_dir/scripts/ ; sh createvariablefile.sh)
-#/bin/sh /var/lib/awx/projects/_24__storage_new/scripts/createvariablefile.sh
+$(cd $current_dir/scripts/ ; sh createvariablefile.sh)
+
 
 V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2}'`
 for i in ${V_ticket[@]}
