@@ -37,7 +37,7 @@ V_ticket=`cat final_value.txt | awk -F "," '{print $1}' | awk -F ": " '{print $2
           echo "email_id: nishu.prakash@emc.com">>${i}.yaml
 
           ansible-playbook storage_expansion.yaml --extra-vars="myvarfile=${i}.yaml"
-          mailx  -s "Update on Request  $i" -S smtp="mailhub.lss.emc.com" "h.shekhar@emc.com"<success_report.txt
+          mailx  -s "Update on Request  $i" -S smtp="mailhub.lss.emc.com" "Nishu.Prakash@emc.com"<success_report.txt
           rm -rf ${i}.yaml
           rm -rf success_report.txt
 

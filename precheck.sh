@@ -43,10 +43,10 @@ else
 fi
 
 cat PRECHECK* > ./meregedreport.txt
-mailx  -s "Precheck validation reports $i" -S smtp="mailhub.lss.emc.com" "h.shekhar@emc.com"<meregedreport.txt
+mailx  -s "Precheck validation reports $i" -S smtp="mailhub.lss.emc.com" "Nishu.Prakash@emc.com"<meregedreport.txt
 
-rm -rf PRECHECK_${i}.txt
-rm -rf meregedreport.txt
+#rm -rf PRECHECK_${i}.txt
+#rm -rf meregedreport.txt
 
 
 done
