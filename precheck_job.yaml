@@ -1,27 +1,6 @@
 ---
-- name: Ansible delete file 
-  find:
-    paths: "/var/lib/awx/projects/_24__storage_new/reports/"
-    paths: "./reports/"
-    patterns: "*.txt"
-  register: files_to_delete
-  ignore_errors: yes
-#    no_log: True
-
-- name: Ansible remove existing report
-  file:
-    path: "{{ item.path }}"
-    state: absent
-  with_items: "{{ files_to_delete.files }}"
-  ignore_errors: yes
-#    no_log: True
-  
-- name: calling servicenow validation script
-  script: ./scripts/validate_servicenow_file.sh
-  register: test_validation
-
 - name: Run a script
-  script: ./scripts/email.sh
+  script: precheck.sh
   register: test
 #    no_log: True
  
