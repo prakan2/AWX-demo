@@ -1,0 +1,42 @@
+---
+- name: Main playbook to differentiate the playbooks
+  gather_facts: yes
+  hosts: localhost
+  vars:
+    Ticket: "{{Ticket}}"
+    unisphere_url: "{{ unisphere_url }}"
+    storageGroupId: "{{ storageGroupId }}"
+    extension_volume_size: "{{ extension_volume_size }}"
+    Username: "{{ Username }}"
+    Password: "{{ Password }}"
+    symmetrixId: "{{ symmetrixId }}"
+    extension_volume_count: "{{ extension_volume_count }}"
+    smtp_server: "{{ smtp_server }}"
+    email_id: "{{ email_id }}"
+    action: "{{ action }}"
+
+  tasks:
+  - name: "Create fact directory"
+    file:
+      path: /etc/ansible/facts.d/
+      state: directory
+
+  - name: "Create static Custom fact playbook_vars"
+    copy:
+      content: '{
+                  "Ticket" : "{{Ticket}}",
+                  "unisphere_url": "{{ unisphere_url }}",
+                  "storageGroupId": "{{ storageGroupId }}",
+                  "extension_volume_size": "{{ extension_volume_size }}",
+                  "Username": "{{ Username }}",
+                  "Password": "{{ Password }}",
+                  "symmetrixId": "{{ symmetrixId }}",
+                  "extension_volume_count": "{{ extension_volume_count }}",
+                  "smtp_server": "{{ smtp_server }}",
+                  "email_id": "{{ email_id }}",
+                  "action": "{{ action }}"
+                }'
+      dest: /etc/ansible/facts.d/playbook_vars.fact
+
+- import_playbook: storage_expansion_up.yml
+  when: action == "Add Lun to SG"
