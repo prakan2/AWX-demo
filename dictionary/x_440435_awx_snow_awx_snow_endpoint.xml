@@ -6,6 +6,6 @@
         <element label="Port" max_length="40" name="u_string_2" type="string"/>
         <element label="Base URL" max_length="40" name="u_string_3" type="string"/>
         <element label="Authorisation Type" max_length="40" name="u_string_8" type="string"/>
-        <element attributes="edge_encryption_enabled=true " label="Password" max_length="255" name="u_string_full_utf8_7" type="password2"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="255" name="u_string_full_utf8_7" type="password2"/>
     </element>
 </database>

@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 12:45:03</sys_created_on>
-        <sys_id>7aae53922fe550102f22fcecf699b607</sys_id>
+        <sys_id>89fd227c2f0a18502f22fcecf699b6d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Port</sys_name>
         <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
         <sys_update_name>sys_dictionary_x_440435_awx_snow_awx_snow_endpoint_u_string_2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 12:45:03</sys_updated_on>
+        <sys_updated_on>2020-07-14 13:50:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
