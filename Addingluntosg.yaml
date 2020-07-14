@@ -1,8 +1,0 @@
----
-- hosts: localhost
-  gather_facts: no
-  tasks:
-
-  - name: importing precheck job 
-    import_tasks: precheck_job.yaml
-- import_playbook: run_automation.yaml

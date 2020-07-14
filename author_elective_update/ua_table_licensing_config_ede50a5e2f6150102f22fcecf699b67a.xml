@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_440435_awx_snow_inputs</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:15:08</sys_created_on>
+        <sys_id>ede50a5e2f6150102f22fcecf699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_440435_awx_snow_inputs</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>ua_table_licensing_config_ede50a5e2f6150102f22fcecf699b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:15:08</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</application>
+        <file_path/>
+        <instance_id>e123bbf8db583f049df22f17d496193f</instance_id>
+        <instance_name>dev75706</instance_name>
+        <name>ua_table_licensing_config_ede50a5e2f6150102f22fcecf699b67a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_440435_awx_snow_inputs</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 06:15:08</sys_created_on><sys_id>ede50a5e2f6150102f22fcecf699b67a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_440435_awx_snow_inputs</sys_name><sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package><sys_policy/><sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope><sys_update_name>ua_table_licensing_config_ede50a5e2f6150102f22fcecf699b67a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 06:15:08</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-222873422</payload_hash>
+        <record_name>x_440435_awx_snow_inputs</record_name>
+        <reverted_from/>
+        <source>070bde062f2510102f22fcecf699b6bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:15:08</sys_created_on>
+        <sys_id>21e50a5e2f6150102f22fcecf699b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e4f73f0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:15:08</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>69e50a5e5361501050a369d4b3a4307c</update_guid>
+        <update_guid_history>69e50a5e5361501050a369d4b3a4307c:-222873422</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 07:58:37</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>6cb96c912567472d8205a317ace265c9</sys_id>
+        <sys_metadata>ede50a5e2f6150102f22fcecf699b67a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_440435_awx_snow_inputs</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_scope_delete display_value="">03084f8a77f74ee1803eb843a2aa9589</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_ede50a5e2f6150102f22fcecf699b67a</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_ede50a5e2f6150102f22fcecf699b67a">21e50a5e2f6150102f22fcecf699b67d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 07:58:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

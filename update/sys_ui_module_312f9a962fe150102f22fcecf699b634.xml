@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AWX_SNOW_ENDPOINT">792f9a962fe150102f22fcecf699b631</application>
+        <filter/>
+        <name>AWX_SNOW_ENDPOINTs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_440435_awx_snow.awx_snow_endpoint_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 08:05:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>312f9a962fe150102f22fcecf699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWX_SNOW_ENDPOINTs</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_ui_module_312f9a962fe150102f22fcecf699b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 08:05:28</sys_updated_on>
+        <table>x_440435_awx_snow_awx_snow_endpoint</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

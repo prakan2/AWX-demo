@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Inputs</name>
+        <order>100</order>
+        <roles>x_440435_awx_snow.inputs_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:15:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9de50a5e2f6150102f22fcecf699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inputs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_app_application_9de50a5e2f6150102f22fcecf699b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:15:07</sys_updated_on>
+        <title>Inputs</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</application>
+        <file_path/>
+        <instance_id>e123bbf8db583f049df22f17d496193f</instance_id>
+        <instance_name>dev75706</instance_name>
+        <name>sys_app_application_9de50a5e2f6150102f22fcecf699b60b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Inputs</name><order>100</order><roles>x_440435_awx_snow.inputs_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 06:15:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9de50a5e2f6150102f22fcecf699b60b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inputs</sys_name><sys_overrides/><sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package><sys_policy/><sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope><sys_update_name>sys_app_application_9de50a5e2f6150102f22fcecf699b60b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 06:15:07</sys_updated_on><title>Inputs</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-543990429</payload_hash>
+        <record_name>Inputs</record_name>
+        <reverted_from/>
+        <source>070bde062f2510102f22fcecf699b6bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:15:07</sys_created_on>
+        <sys_id>99e50a5e2f6150102f22fcecf699b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e4f73af10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:15:07</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>d1e50a5ebf61501021e8da102d21440e</update_guid>
+        <update_guid_history>d1e50a5ebf61501021e8da102d21440e:-543990429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Inputs">b4cbc8e82f02d4502f22fcecf699b6c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 07:23:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4bab9c0050b44087ad0b68a3124455f1</sys_id>
+        <sys_metadata>9de50a5e2f6150102f22fcecf699b60b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inputs</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_scope_delete display_value="">03084f8a77f74ee1803eb843a2aa9589</sys_scope_delete>
+        <sys_update_name>sys_app_application_9de50a5e2f6150102f22fcecf699b60b</sys_update_name>
+        <sys_update_version display_value="sys_app_application_9de50a5e2f6150102f22fcecf699b60b">99e50a5e2f6150102f22fcecf699b60e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 07:23:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

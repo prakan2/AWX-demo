@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="delete unreplicated unity volume">dc6ced662ff110502f22fcecf699b616</sc_cat_item>
+        <sc_category display_value="AWX Integration">d64019872fa9d0102f22fcecf699b645</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 13:52:41</sys_created_on>
+        <sys_id>ea4b266a2f3910502f22fcecf699b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWX Integration.delete unreplicated unity volume</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sc_cat_item_category_ea4b266a2f3910502f22fcecf699b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 13:52:41</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_440435_awx_snow.inputs_user" name="x_440435_awx_snow.inputs_user">0de5865e2f6150102f22fcecf699b6a4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:15:07</sys_created_on>
+        <sys_id>05e50a5e2f6150102f22fcecf699b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0de5865e2f6150102f22fcecf699b6a4</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_05e50a5e2f6150102f22fcecf699b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:15:07</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

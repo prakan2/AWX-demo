@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="AWX-SNOW-Integration">8d4b52462f2510102f22fcecf699b635</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sc_request</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:10:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d4b52462f2510102f22fcecf699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_app_module_4d4b52462f2510102f22fcecf699b63a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:10:01</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</application>
+        <file_path/>
+        <instance_id>e123bbf8db583f049df22f17d496193f</instance_id>
+        <instance_name>dev75706</instance_name>
+        <name>sys_app_module_4d4b52462f2510102f22fcecf699b63a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AWX-SNOW-Integration">8d4b52462f2510102f22fcecf699b635</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sc_request</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-23 13:10:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4d4b52462f2510102f22fcecf699b63a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package><sys_policy/><sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope><sys_update_name>sys_app_module_4d4b52462f2510102f22fcecf699b63a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-23 13:10:01</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1924800705</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>070bde062f2510102f22fcecf699b6bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:10:01</sys_created_on>
+        <sys_id>854b52462f2510102f22fcecf699b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e14cb9800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:10:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cd4b52465c25101025a7cc35e2fc583b</update_guid>
+        <update_guid_history>cd4b52465c25101025a7cc35e2fc583b:-1924800705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">107b44e82f02d4502f22fcecf699b6f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 07:22:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>30c26997fe214215af09647f1e264fa1</sys_id>
+        <sys_metadata>4d4b52462f2510102f22fcecf699b63a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_scope_delete display_value="">03084f8a77f74ee1803eb843a2aa9589</sys_scope_delete>
+        <sys_update_name>sys_app_module_4d4b52462f2510102f22fcecf699b63a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4d4b52462f2510102f22fcecf699b63a">854b52462f2510102f22fcecf699b63c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 07:22:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

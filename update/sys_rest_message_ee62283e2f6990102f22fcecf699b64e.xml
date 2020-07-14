@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="awx-cred">d4f2207e2f6990102f22fcecf699b672</basic_auth_profile>
+        <basic_auth_user/>
+        <description/>
+        <name>Setting the AWX-Endpoint</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>http://10.241.119.103/api/v2/workflow_job_templates/27/launch/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-25 12:20:28</sys_created_on>
+        <sys_id>ee62283e2f6990102f22fcecf699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Setting the AWX-Endpoint</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_rest_message_ee62283e2f6990102f22fcecf699b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-25 12:20:28</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

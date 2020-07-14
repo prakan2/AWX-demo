@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_440435_awx_snow_awx_endpoint" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>awx_host</element>
+            <list_id display_value="x_440435_awx_snow_awx_endpoint" element="NULL" name="x_440435_awx_snow_awx_endpoint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9a4ad6522fe150102f22fcecf699b607</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-24 07:44:13</sys_created_on>
+            <sys_id>d64ad6522fe150102f22fcecf699b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-24 07:44:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_440435_awx_snow_awx_endpoint</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-24 07:44:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a4ad6522fe150102f22fcecf699b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_440435_awx_snow_awx_endpoint</sys_name>
+            <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+            <sys_update_name>sys_ui_list_x_440435_awx_snow_awx_endpoint_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-24 07:44:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</application>
+        <file_path/>
+        <instance_id>e123bbf8db583f049df22f17d496193f</instance_id>
+        <instance_name>dev75706</instance_name>
+        <name>sys_ui_list_x_440435_awx_snow_awx_endpoint_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_440435_awx_snow_awx_endpoint" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>awx_host</element><list_id display_value="x_440435_awx_snow_awx_endpoint" element="NULL" name="x_440435_awx_snow_awx_endpoint" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9a4ad6522fe150102f22fcecf699b607</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 07:44:13</sys_created_on><sys_id>d64ad6522fe150102f22fcecf699b608</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 07:44:13</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_440435_awx_snow_awx_endpoint</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 07:44:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a4ad6522fe150102f22fcecf699b607</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_440435_awx_snow_awx_endpoint</sys_name><sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package><sys_policy/><sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope><sys_update_name>sys_ui_list_x_440435_awx_snow_awx_endpoint_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 07:44:13</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1335744442</payload_hash>
+        <record_name>AWX_EndPoint</record_name>
+        <reverted_from/>
+        <source>070bde062f2510102f22fcecf699b6bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:44:13</sys_created_on>
+        <sys_id>d24ad6522fe150102f22fcecf699b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e548cd940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 07:44:13</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>924ad65246e15010375c71c7c7500c0a</update_guid>
+        <update_guid_history>924ad65246e15010375c71c7c7500c0a:-1335744442</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-25 13:52:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2244135a46ee44f2892a06bc49ef6639</sys_id>
+        <sys_metadata>9a4ad6522fe150102f22fcecf699b607</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_440435_awx_snow_awx_endpoint</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_parent display_value="">a1d562ce2f2510102f22fcecf699b69d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_scope_delete display_value="">03084f8a77f74ee1803eb843a2aa9589</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_440435_awx_snow_awx_endpoint_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_440435_awx_snow_awx_endpoint_null">d24ad6522fe150102f22fcecf699b60a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-25 13:52:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

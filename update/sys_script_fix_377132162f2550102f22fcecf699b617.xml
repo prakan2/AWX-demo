@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Test Rest Api</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[ gs.info("Entering the script snippet");
+ var id = "f8cef7122f6950102f22fcecf699b605";
+ var restApi = new awx_snow_restApi(id);
+ var url = 'api/v2/job_templates/28/launch/';
+ var jsonTry =  new global.JSON();
+// var payLo = {"extra_vars": { "Ticket":"RITM2443931","unisphere_url":"https://10.241.210.217:8443","storageGroupId":"NishuTest","extension_volume_size":"5","Username":"smc","Password":"smc","symmetrixId":"000197600361","extension_volume_count":"2","smtp_server":"mailhub.lss.emc.com","email_id":"nishu.prakash@emc.com" } };
+//  var payload = jsonTry.decode(payLo);
+//  var rest = restApi.RESTCall(url, "post", payLo);
+//  gs.info("Output" + rest.responseBody);
+//  var res = JSON.parse(rest.responseBody); 
+// //Need to add sleep in here
+ var jobId = res['job'];
+ var jobUrl = "api/v2/jobs/" + jobId + "/";
+ var result = restApi.RESTCall(jobUrl, "get", "");
+ var endValue = JSON.parse(result.responseBody);
+ var endRes = endValue['status'];
+ gs.info("Status of the request:" + endRes); 
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 09:27:14</sys_created_on>
+        <sys_id>377132162f2550102f22fcecf699b617</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Test Rest Api</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_script_fix_377132162f2550102f22fcecf699b617</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 10:44:01</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

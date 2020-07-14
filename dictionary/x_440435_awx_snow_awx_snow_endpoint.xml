@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AWX_SNOW_ENDPOINT" max_length="40" name="x_440435_awx_snow_awx_snow_endpoint" type="collection">
+        <element label="MID Server List" max_length="4000" name="mid_server_list" reference="ecc_agent" type="glide_list"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="UserName" max_length="40" name="username" type="string"/>
+        <element label="Port" max_length="40" name="u_string_2" type="string"/>
+        <element label="Base URL" max_length="40" name="u_string_3" type="string"/>
+        <element label="Authorisation Type" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true " label="Password" max_length="255" name="u_string_full_utf8_7" type="password2"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Add Lun To SG">3c10ddc32fa9d0102f22fcecf699b6f9</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 10:16:56</sys_created_on>
+        <sys_id>cb6019c72fa9d0102f22fcecf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add Lun To SG</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_cb6019c72fa9d0102f22fcecf699b639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 10:16:56</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

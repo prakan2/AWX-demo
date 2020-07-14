@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_440435_awx_snow_awx_snow_endpoint</description>
+        <name>x_440435_awx_snow_awx_snow_endpoint</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 08:05:28</sys_created_on>
+        <sys_id>fd2f9a962fe150102f22fcecf699b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_440435_awx_snow_awx_snow_endpoint</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_security_acl_fd2f9a962fe150102f22fcecf699b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 08:05:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

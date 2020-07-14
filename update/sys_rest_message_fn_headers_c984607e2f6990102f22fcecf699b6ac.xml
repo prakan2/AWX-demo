@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="Default GET">7a132cba2f6990102f22fcecf699b6ef</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-25 12:27:26</sys_created_on>
+        <sys_id>c984607e2f6990102f22fcecf699b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_c984607e2f6990102f22fcecf699b6ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-25 12:27:26</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>

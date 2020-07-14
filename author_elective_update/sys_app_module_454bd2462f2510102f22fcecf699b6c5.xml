@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="AWX-SNOW-Integration">8d4b52462f2510102f22fcecf699b635</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sc_request">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open - Unassigned</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sc_request</name>
+        <order>4</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:10:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>454bd2462f2510102f22fcecf699b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_app_module_454bd2462f2510102f22fcecf699b6c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:10:01</sys_updated_on>
+        <timeline_page/>
+        <title>Open - Unassigned</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</application>
+        <file_path/>
+        <instance_id>e123bbf8db583f049df22f17d496193f</instance_id>
+        <instance_name>dev75706</instance_name>
+        <name>sys_app_module_454bd2462f2510102f22fcecf699b6c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AWX-SNOW-Integration">8d4b52462f2510102f22fcecf699b635</application><assessment/><device_type/><filter table="sc_request">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open - Unassigned</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sc_request</name><order>4</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-23 13:10:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>454bd2462f2510102f22fcecf699b6c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open - Unassigned</sys_name><sys_overrides/><sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package><sys_policy/><sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope><sys_update_name>sys_app_module_454bd2462f2510102f22fcecf699b6c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-23 13:10:01</sys_updated_on><timeline_page/><title>Open - Unassigned</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-86848421</payload_hash>
+        <record_name>Open - Unassigned</record_name>
+        <reverted_from/>
+        <source>070bde062f2510102f22fcecf699b6bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:10:01</sys_created_on>
+        <sys_id>8d4bd2462f2510102f22fcecf699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e14cb9e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:10:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c54bd2466f251010dc83e8e98ea699c6</update_guid>
+        <update_guid_history>c54bd2466f251010dc83e8e98ea699c6:-86848421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open - Unassigned">924bc0e82f02d4502f22fcecf699b63c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 07:21:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>000e3aa6929d471a8009744b7aea9939</sys_id>
+        <sys_metadata>454bd2462f2510102f22fcecf699b6c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_scope_delete display_value="">03084f8a77f74ee1803eb843a2aa9589</sys_scope_delete>
+        <sys_update_name>sys_app_module_454bd2462f2510102f22fcecf699b6c5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_454bd2462f2510102f22fcecf699b6c5">8d4bd2462f2510102f22fcecf699b6c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 07:21:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

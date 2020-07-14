@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 08:05:28</sys_created_on>
+        <sys_id>792f9a962fe150102f22fcecf699b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_440435_awx_snow_awx_snow_endpoint.x_440435_awx_snow.awx_snow_endpoint_user</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_security_acl display_value="x_440435_awx_snow_awx_snow_endpoint">fd2f9a962fe150102f22fcecf699b651</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_792f9a962fe150102f22fcecf699b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 08:05:28</sys_updated_on>
+        <sys_user_role display_value="x_440435_awx_snow.awx_snow_endpoint_user" name="x_440435_awx_snow.awx_snow_endpoint_user">6d2f9e162fe150102f22fcecf699b6f7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

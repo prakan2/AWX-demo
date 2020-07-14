@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_440435_awx_snow.awx_snow_restApi</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>awx_snow_restApi</name>
+        <script><![CDATA[var awx_snow_restApi = Class.create();
+awx_snow_restApi.prototype = {
+      
+    _restErr: "",
+    _endpoint_sysid: null,
+    _controlRecord: null, 
+     isAuthorized: false,
+    
+    
+	setRestErr: function(error){
+        if(!gs.nil(this._restErr))
+            this._restErr += "\n";
+        this._restErr += error;
+       },
+    
+    
+    
+    RESTCall: function(url, method, jsonData){
+        var restErr = "";
+        try{
+            restErr = "RESTCall URL: " + url + ", method: " + method + ". ";  
+            gs.info(restErr);   
+            gs.info("RESTCall Json: " + jsonData);
+            
+            var r = this._setRestRequest(url, method);  
+            if(method == "post" && jsonData){
+                var jsondat = this.toJSON(jsonData);
+                r.setRequestBody(jsondat);  
+            }
+            var response = r.execute();
+	        response.waitForResponse(300);
+            if(response.haveError()){
+                gs.info("RESTCall call has error: " + response.getErrorMessage());    
+            }
+            
+            var httpStatus = response.getStatusCode();
+            gs.info("RESTCall HTTP Status Code: " + httpStatus + "response: " + response.getBody());
+            if((httpStatus == 200 || httpStatus == 201 || httpStatus == 202 || httpStatus == 204)){      // || httpStatus == 404
+				gs.debug(response.haveError);
+                if (response.haveError()){
+                    var restErr2 = "Success (" + httpStatus + ") with error message: " + response.getErrorMessage() + " ";
+                    gs.debug(restErr2);
+                    restErr += restErr2;
+                }
+                return this._returnRESTCallResult(response, method, httpStatus, restErr);
+            }
+            else{
+                var restErr4 = "RESTCall failed: " + response.getErrorMessage() + ". Http Status: " + httpStatus + " ";
+                gs.debug(restErr4);
+                restErr += restErr4;
+                this.setRestErr(restErr);
+		return {
+		        statusCode: 2,  
+		        error: restErr4, 
+                        httpStatus: httpStatus
+		};    
+            }
+        } catch(ex) {
+            var err = "RESTCall throw error: " + ex;
+            gs.info(err);
+            restErr += err;
+            //this.setRestErr(restErr);
+          
+                return {
+                    statusCode: 3,
+                    error: restErr,
+                    httpStatus: 500
+                };
+   	   } finally {
+            	gs.info("RESTCall Completed");
+           }
+    },
+    
+    _returnRESTCallResult: function(response, method, httpStatus, restErr){
+	    var httpStatusUpdate ="";
+        var responseBody = response.getBody();
+        if(method == "post"){
+
+            return {statusCode: 0,  responseBody: responseBody, httpStatus: httpStatus,};
+        }
+        
+        if(method == "get") {
+            return {statusCode: 0, httpStatus: httpStatus, responseBody: responseBody};
+        }
+        
+        if(responseBody != null){
+		
+            return {statusCode: 0, responseBody: responseBody, httpStatus: httpStatus,}; 
+		}else{
+            var restErr3 = "RESTCall call return " + httpStatus + " but response body is null. ";
+            gs.info(restErr3);
+            restErr += restErr3;
+            this.setRestErr(restErr);
+            return {statusCode: 1, error: restErr, httpStatus: httpStatus};
+        }       
+ 
+    },
+	
+	initialize: function(endpoint_sysid, doInit) {
+          this.endpoint_sysid = endpoint_sysid;
+          this._controlRecord = this._getEndpointSetting(endpoint_sysid);
+           if(doInit == undefined || doInit === true){
+               this._init();    
+           }
+    },
+    
+    _getEndpointSetting: function(endpoint_sysid){
+        var rec = new GlideRecord('x_440435_awx_snow_awx_snow_endpoint');
+        rec.get(endpoint_sysid);
+        return rec;
+    },
+ 
+    _init: function(){
+        var auth_type = this._controlRecord.u_string_8.toString();
+        switch(auth_type){
+            case "Token":
+                this.getToken();
+                break;
+        }
+    },
+    
+    getToken: function(){
+        this.setAuthorized(false);
+    },
+	
+	setAuthorized: function(auth){
+        this._isAuthorized = auth;
+    },
+	
+  _setRestRequest: function(extraURL, method){
+        var r = new sn_ws.RESTMessageV2();
+        r.setRequestHeader("Content-Type", "application/json");
+        r.setRequestHeader("Accept", "application/json");
+        gs.info("Authorized: " + this._isAuthorized);
+        if(this._isAuthorized){
+            r.setRequestHeader("Authorization", this.getToken()); 
+        }
+	if (this._controlRecord.u_string_8.toString() == 'Token') {
+            var password = this._controlRecord.u_string_full_utf8_7.getDecryptedValue().toString();
+            var username = this._controlRecord.username.toString();      
+            gs.info('Basic Auth, user name: ' + username);
+            r.setBasicAuth(username, password);
+        }
+			 r.setHttpMethod(method);
+    	    if(!(this._controlRecord.mid_server_list.nil())){
+	     var mid = new GlideRecord('ecc_agent');
+	     var sysids = this._controlRecord.mid_server_list.split(',');
+	      mid.get(sysids[0]);
+	      gs.info("mid server = " + mid.name.toString());
+	       r.setMIDServer(mid.name.toString());
+	       }   
+         var url = "";
+	 var baseUrl = this._controlRecord.u_string_3.toString();
+	 url = baseUrl + extraURL;
+         gs.info("CS: URL: " + url);
+        r.setEndpoint(url);
+        return r;
+    },
+    
+	toJSON: function(obj){
+		var json = new global.JSON();
+		var val =  json.encode(obj);
+		// gs.info(val);
+		return val;
+	    },
+
+     type: 'awx_snow_restApi'
+};
+ 
+awx_snow_restApi.get =function(endpoint_sysid){
+    return new awx_snow_restApi(endpoint_sysid);
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:52:45</sys_created_on>
+        <sys_id>c63b5a922fe150102f22fcecf699b61b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>awx_snow_restApi</sys_name>
+        <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
+        <sys_update_name>sys_script_include_c63b5a922fe150102f22fcecf699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 10:05:57</sys_updated_on>
+    </sys_script_include>
+</record_update>
