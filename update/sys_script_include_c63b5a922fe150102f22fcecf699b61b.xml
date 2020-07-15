@@ -52,8 +52,8 @@ awx_snow_restApi.prototype = {
                     restErr += restErr2;
                 }
                 return this._returnRESTCallResult(response, method, httpStatus, restErr);
-            }
-            else{
+            
+	    }else{
                 var restErr4 = "RESTCall failed: " + response.getErrorMessage() + ". Http Status: " + httpStatus + " ";
                 gs.debug(restErr4);
                 restErr += restErr4;
@@ -85,7 +85,7 @@ awx_snow_restApi.prototype = {
         var responseBody = response.getBody();
         if(method == "post"){
 
-            return {statusCode: 0,  responseBody: responseBody, httpStatus: httpStatus,};
+            return {statusCode: 0,  responseBody: responseBody, httpStatus: httpStatus};
         }
         
         if(method == "get") {
@@ -94,7 +94,7 @@ awx_snow_restApi.prototype = {
         
         if(responseBody != null){
 		
-            return {statusCode: 0, responseBody: responseBody, httpStatus: httpStatus,}; 
+            return {statusCode: 0, responseBody: responseBody, httpStatus: httpStatus}; 
 		}else{
             var restErr3 = "RESTCall call return " + httpStatus + " but response body is null. ";
             gs.info(restErr3);
@@ -158,9 +158,11 @@ awx_snow_restApi.prototype = {
 	      gs.info("mid server = " + mid.name.toString());
 	       r.setMIDServer(mid.name.toString());
 	       }   
-         var url = "";
-	 var baseUrl = this._controlRecord.u_string_3.toString();
-	 url = baseUrl + extraURL;
+	  
+	//Add a flag to make it specific for return calls
+		var url = "";
+	 	var baseUrl = this._controlRecord.u_string_3.toString();
+		url = baseUrl + extraURL;
          gs.info("CS: URL: " + url);
         r.setEndpoint(url);
         return r;
@@ -183,13 +185,13 @@ awx_snow_restApi.get =function(endpoint_sysid){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 07:52:45</sys_created_on>
         <sys_id>c63b5a922fe150102f22fcecf699b61b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>awx_snow_restApi</sys_name>
         <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
         <sys_update_name>sys_script_include_c63b5a922fe150102f22fcecf699b61b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-26 10:05:57</sys_updated_on>
+        <sys_updated_on>2020-07-15 06:45:20</sys_updated_on>
     </sys_script_include>
 </record_update>
