@@ -8,7 +8,7 @@
         <record_for_rollback>false</record_for_rollback>
         <run_once>true</run_once>
         <script><![CDATA[gs.info("Entering the script snippet");
- var id = "c10496c52f0210102f22fcecf699b663";
+ var id = "ee819377db5210104c815c7a4896196f";
  var restApi = new awx_snow_restApi(id);
  var url = 'api/v2/jobs/455/stdout/';
  var jsonTry =  new global.JSON();
@@ -27,14 +27,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 09:27:14</sys_created_on>
         <sys_id>377132162f2550102f22fcecf699b617</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>Test Rest Api</sys_name>
         <sys_package display_value="AWX-SNOW-Integration" source="x_440435_awx_snow">8f0b1e822f2510102f22fcecf699b67f</sys_package>
         <sys_policy/>
         <sys_scope display_value="AWX-SNOW-Integration">8f0b1e822f2510102f22fcecf699b67f</sys_scope>
         <sys_update_name>sys_script_fix_377132162f2550102f22fcecf699b617</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 13:02:41</sys_updated_on>
+        <sys_updated_on>2020-08-05 10:40:27</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

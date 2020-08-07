@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{"9da8cdc72fce94102f22fcecf699b660":"41a84d872fce94102f22fcecf699b616","c5a8cdc72fce94102f22fcecf699b655":"4da84d872fce94102f22fcecf699b615","09a8cdc72fce94102f22fcecf699b657":"49a84d872fce94102f22fcecf699b615","45a84d872fce94102f22fcecf699b617":"c1a84d872fce94102f22fcecf699b616","c9a84d872fce94102f22fcecf699b619":"49a84d872fce94102f22fcecf699b615","45a84d872fce94102f22fcecf699b61c":"49a84d872fce94102f22fcecf699b615","5da8cdc72fce94102f22fcecf699b65f":"49a84d872fce94102f22fcecf699b615","d9a8cdc72fce94102f22fcecf699b659":"cda84d872fce94102f22fcecf699b615","59a8cdc72fce94102f22fcecf699b658":"c5a84d872fce94102f22fcecf699b615"},"subflows":[],"stages":{"c1a84d872fce94102f22fcecf699b616":{"duration":"","order":100,"stageId":"c1a84d872fce94102f22fcecf699b616","name":"AWX Callback Completed","value":"AWX Callback Completed"},"cda84d872fce94102f22fcecf699b615":{"duration":"","order":100,"stageId":"cda84d872fce94102f22fcecf699b615","name":"waiting for the AWX request to complete","value":"waiting for the AWX request to complete"},"49a84d872fce94102f22fcecf699b615":{"duration":"","order":100,"stageId":"49a84d872fce94102f22fcecf699b615","name":"Request Completion","value":"Request Completion"},"41a84d872fce94102f22fcecf699b616":{"duration":"","order":100,"stageId":"41a84d872fce94102f22fcecf699b616","name":"SNOW to AWX Status Check","value":"SNOW to AWX Status Check"},"4da84d872fce94102f22fcecf699b615":{"duration":"","order":100,"stageId":"4da84d872fce94102f22fcecf699b615","name":"AWX get call to the SNOW ","value":"AWX get call to the SNOW "},"c5a84d872fce94102f22fcecf699b615":{"duration":"","order":100,"stageId":"c5a84d872fce94102f22fcecf699b615","name":"Call to AWX Job Template","value":"Call to AWX Job Template"}},"ends":["09a8cdc72fce94102f22fcecf699b656"]}</activity_stages>
+        <activity_stages>{"ends":["08df84d0dbae10104c815c7a489619c5"],"activities":{"ccdf84d0dbae10104c815c7a489619c8":"40df84d0dbae10104c815c7a489619bf","c8df84d0dbae10104c815c7a489619d9":"c4df8890dbae10104c815c7a489619e3","0cdf84d0dbae10104c815c7a489619bf":"ccdf8890dbae10104c815c7a489619e3","04df84d0dbae10104c815c7a489619c4":"44df84d0dbae10104c815c7a489619bf","4cdf84d0dbae10104c815c7a489619c6":"c4df8890dbae10104c815c7a489619e3","00df84d0dbae10104c815c7a489619c6":"c4df8890dbae10104c815c7a489619e3","08df84d0dbae10104c815c7a489619da":"c8df8890dbae10104c815c7a489619e3","4cdf84d0dbae10104c815c7a489619ca":"c4df8890dbae10104c815c7a489619e3"},"stages":{"44df84d0dbae10104c815c7a489619bf":{"duration":"","order":100,"stageId":"44df84d0dbae10104c815c7a489619bf","name":"SNOW to AWX Status Check","value":"SNOW to AWX Status Check"},"c8df8890dbae10104c815c7a489619e3":{"duration":"","order":100,"stageId":"c8df8890dbae10104c815c7a489619e3","name":"AWX get call to the SNOW ","value":"AWX get call to the SNOW "},"ccdf8890dbae10104c815c7a489619e3":{"duration":"","order":100,"stageId":"ccdf8890dbae10104c815c7a489619e3","name":"waiting for the AWX request to complete","value":"waiting for the AWX request to complete"},"c4df8890dbae10104c815c7a489619e3":{"duration":"","order":100,"stageId":"c4df8890dbae10104c815c7a489619e3","name":"Request Completion","value":"Request Completion"},"40df84d0dbae10104c815c7a489619bf":{"duration":"","order":100,"stageId":"40df84d0dbae10104c815c7a489619bf","name":"AWX Callback Completed","value":"AWX Callback Completed"}},"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>d9a8cdc72fce94102f22fcecf699b65e,59a8cdc72fce94102f22fcecf699b658,d9a8cdc72fce94102f22fcecf699b659,9da8cdc72fce94102f22fcecf699b660,c5a8cdc72fce94102f22fcecf699b655,45a84d872fce94102f22fcecf699b617,c9a84d872fce94102f22fcecf699b619,09a8cdc72fce94102f22fcecf699b657,09a8cdc72fce94102f22fcecf699b656</expected_sequences>
+        <expected_sequences>c0df84d0dbae10104c815c7a489619ca,c4df84d0dbae10104c815c7a489619c3,04df84d0dbae10104c815c7a489619c4,0cdf84d0dbae10104c815c7a489619bf,08df84d0dbae10104c815c7a489619da,88df84d0dbae10104c815c7a489619c7</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>d9a8cdc72fce94102f22fcecf699b65e,59a8cdc72fce94102f22fcecf699b658,d9a8cdc72fce94102f22fcecf699b659,9da8cdc72fce94102f22fcecf699b660,c5a8cdc72fce94102f22fcecf699b655,01a84d872fce94102f22fcecf699b61b,45a84d872fce94102f22fcecf699b617,5da8cdc72fce94102f22fcecf699b65f,c9a84d872fce94102f22fcecf699b619,99a8cdc72fce94102f22fcecf699b65d,45a84d872fce94102f22fcecf699b61c,09a8cdc72fce94102f22fcecf699b657,09a8cdc72fce94102f22fcecf699b656</full_sequences>
+        <full_sequences>c0df84d0dbae10104c815c7a489619ca,c4df84d0dbae10104c815c7a489619c3,04df84d0dbae10104c815c7a489619c4,0cdf84d0dbae10104c815c7a489619bf,40df84d0dbae10104c815c7a489619d8,08df84d0dbae10104c815c7a489619da,4cdf84d0dbae10104c815c7a489619c6,88df84d0dbae10104c815c7a489619c7,00df84d0dbae10104c815c7a489619c6,ccdf84d0dbae10104c815c7a489619c8,08df84d0dbae10104c815c7a489619c5,c8df84d0dbae10104c815c7a489619d9,8cdf84d0dbae10104c815c7a489619d8,4cdf84d0dbae10104c815c7a489619ca</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Delete_unreplicated_lun_from_unity</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">d9a8cdc72fce94102f22fcecf699b65e</start>
+        <start display_value="Begin">c0df84d0dbae10104c815c7a489619ca</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>0da84d872fce94102f22fcecf699b613</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df8890dbae10104c815c7a489619e2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:19:17</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:43:37</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="Delete_unreplicated_lun_from_unity">cc4ea9222f7510502f22fcecf699b68a</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -68,197 +68,225 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c1a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>AWX Callback Completed</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>AWX get call to the SNOW </name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>4da84d872fce94102f22fcecf699b615</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c8df8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>AWX get call to the SNOW </value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Call to AWX Job Template</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c5a84d872fce94102f22fcecf699b615</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df8890dbae10104c815c7a489619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>Call to AWX Job Template</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Completed</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c9a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df8890dbae10104c815c7a489619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Delivery</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>140</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>49a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>44df8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>delivery</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfillment</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>120</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c5a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>fulfillment</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>4da84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Completion</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>49a84d872fce94102f22fcecf699b615</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>Request Completion</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Approved</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>90</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c9a84d872fce94102f22fcecf699b615</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>request_approved</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>SNOW to AWX Status Check</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>41a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>44df84d0dbae10104c815c7a489619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>SNOW to AWX Status Check</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>waiting for the AWX request to complete</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>cda84d872fce94102f22fcecf699b615</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>waiting for the AWX request to complete</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Waiting for Approval</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>45a84d872fce94102f22fcecf699b616</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf8890dbae10104c815c7a489619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>waiting_for_approval</value>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>10</databus_lookup_id>
+        <databus_lookup_id>15</databus_lookup_id>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>AWX call back status</name>
+        <name>AWX call back status - Completed</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="AWX Callback Completed">c1a84d872fce94102f22fcecf699b616</stage>
+        <stage display_value="AWX Callback Completed">40df84d0dbae10104c815c7a489619bf</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>45a84d872fce94102f22fcecf699b617</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
-        <x>763</x>
-        <y>154</y>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>969</x>
+        <y>11</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=45a84d872fce94102f22fcecf699b617"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ccdf84d0dbae10104c815c7a489619c8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>85a84d872fce94102f22fcecf699b618</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -267,7 +295,7 @@
 &#13;
   function ifScript() {&#13;
 	var endRes = workflow.scratchpad.endRes;&#13;
-     if (endRes === 'successful') {&#13;
+     if (endRes === 'Successful') {&#13;
         return 'yes';&#13;
      } else {&#13;
      return 'no';&#13;
@@ -278,71 +306,43 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c1a84d872fce94102f22fcecf699b618</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c9a84d872fce94102f22fcecf699b617</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c9a84d872fce94102f22fcecf699b617</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c1a84d872fce94102f22fcecf699b618</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b617</document_key>
+        <document_key>ccdf84d0dbae10104c815c7a489619c8</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>85a84d872fce94102f22fcecf699b618</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -351,7 +351,7 @@
 &#13;
   function ifScript() {&#13;
 	var endRes = workflow.scratchpad.endRes;&#13;
-     if (endRes === 'successful') {&#13;
+     if (endRes === 'Successful') {&#13;
         return 'yes';&#13;
      } else {&#13;
      return 'no';&#13;
@@ -361,7 +361,7 @@
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="AWX call back status">45a84d872fce94102f22fcecf699b617</activity>
+        <activity display_value="AWX call back status - Completed">ccdf84d0dbae10104c815c7a489619c8</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -375,14 +375,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>81a84d872fce94102f22fcecf699b619</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="AWX call back status">45a84d872fce94102f22fcecf699b617</activity>
+        <activity display_value="AWX call back status - Completed">ccdf84d0dbae10104c815c7a489619c8</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -396,11 +396,194 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>01a84d872fce94102f22fcecf699b619</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c8df84d0dbae10104c815c7a489619c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>AWX call back status - Running</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>88df84d0dbae10104c815c7a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>762</x>
+        <y>155</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=88df84d0dbae10104c815c7a489619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+ answer = ifScript();&#13;
+&#13;
+  function ifScript() {&#13;
+	var endRes = workflow.scratchpad.endRes;&#13;
+     if (endRes === 'running') {&#13;
+        return 'yes';&#13;
+     } else {&#13;
+     return 'no';&#13;
+	}&#13;
+  }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>88df84d0dbae10104c815c7a489619c7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+ answer = ifScript();&#13;
+&#13;
+  function ifScript() {&#13;
+	var endRes = workflow.scratchpad.endRes;&#13;
+     if (endRes === 'running') {&#13;
+        return 'yes';&#13;
+     } else {&#13;
+     return 'no';&#13;
+	}&#13;
+  }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="AWX call back status - Running">88df84d0dbae10104c815c7a489619c7</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>08df84d0dbae10104c815c7a489619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="AWX call back status - Running">88df84d0dbae10104c815c7a489619c7</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -418,21 +601,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b65e</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>6</x>
         <y>18</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=d9a8cdc72fce94102f22fcecf699b65e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c0df84d0dbae10104c815c7a489619ca"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">d9a8cdc72fce94102f22fcecf699b65e</activity>
+        <activity display_value="Begin">c0df84d0dbae10104c815c7a489619ca</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -446,11 +629,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>95a8cdc72fce94102f22fcecf699b65f</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -466,46 +649,32 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="SNOW to AWX Status Check">41a84d872fce94102f22fcecf699b616</stage>
+        <stage display_value="SNOW to AWX Status Check">44df84d0dbae10104c815c7a489619bf</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>9da8cdc72fce94102f22fcecf699b660</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
-        <x>263</x>
-        <y>234</y>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>216</x>
+        <y>26</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=9da8cdc72fce94102f22fcecf699b660"/>
+    <sys_variable_value action="delete_multiple" query="document_key=04df84d0dbae10104c815c7a489619c4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>11a8cdc72fce94102f22fcecf699b661</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>95a8cdc72fce94102f22fcecf699b661</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -526,57 +695,71 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b661</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>11a8cdc72fce94102f22fcecf699b661</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b661</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9da8cdc72fce94102f22fcecf699b660</document_key>
+        <document_key>04df84d0dbae10104c815c7a489619c4</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>95a8cdc72fce94102f22fcecf699b661</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -596,7 +779,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check the status Code">9da8cdc72fce94102f22fcecf699b660</activity>
+        <activity display_value="Check the status Code">04df84d0dbae10104c815c7a489619c4</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -610,14 +793,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>55a8cdc72fce94102f22fcecf699b66e</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check the status Code">9da8cdc72fce94102f22fcecf699b660</activity>
+        <activity display_value="Check the status Code">04df84d0dbae10104c815c7a489619c4</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -631,11 +814,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d5a8cdc72fce94102f22fcecf699b66e</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -651,51 +834,51 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Completion">49a84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="Request Completion">c4df8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>5da8cdc72fce94102f22fcecf699b65f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:16:46</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>482</x>
         <y>440</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5da8cdc72fce94102f22fcecf699b65f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4cdf84d0dbae10104c815c7a489619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da8cdc72fce94102f22fcecf699b65f</document_key>
+        <document_key>4cdf84d0dbae10104c815c7a489619c6</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>dda8cdc72fce94102f22fcecf699b65f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:16:46</sys_updated_on>
-        <value>state=4^comments=The request is completed with error : ${workflow.scratchpad.msg}^EQ</value>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>state=4^work_notes=The request is completed with error : ${workflow.scratchpad.msg}^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5da8cdc72fce94102f22fcecf699b65f</document_key>
+        <document_key>4cdf84d0dbae10104c815c7a489619c6</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>dda8cdc72fce94102f22fcecf699b65f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:16:46</sys_updated_on>
-        <value>state=4^comments=The request is completed with error : ${workflow.scratchpad.msg}^EQ</value>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>state=4^work_notes=The request is completed with error : ${workflow.scratchpad.msg}^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Complete - Failure">5da8cdc72fce94102f22fcecf699b65f</activity>
+        <activity display_value="Complete - Failure">4cdf84d0dbae10104c815c7a489619c6</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -709,11 +892,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d5a8cdc72fce94102f22fcecf699b660</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -731,19 +914,19 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>09a8cdc72fce94102f22fcecf699b656</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>08df84d0dbae10104c815c7a489619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>933</x>
         <y>438</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=09a8cdc72fce94102f22fcecf699b656"/>
+    <sys_variable_value action="delete_multiple" query="document_key=08df84d0dbae10104c815c7a489619c5"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -758,35 +941,35 @@ function ifScript() {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Call to AWX Job Template">c5a84d872fce94102f22fcecf699b615</stage>
+        <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>59a8cdc72fce94102f22fcecf699b658</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:35:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>49</x>
         <y>157</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=59a8cdc72fce94102f22fcecf699b658"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c4df84d0dbae10104c815c7a489619c3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>59a8cdc72fce94102f22fcecf699b658</document_key>
+        <document_key>c4df84d0dbae10104c815c7a489619c3</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b658</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:35:50</sys_updated_on>
         <value>var id = "c10496c52f0210102f22fcecf699b663";&#13;
 var restApi = new awx_snow_restApi(id);&#13;
-var url = 'api/v2/job_templates/37/launch/';&#13;
+var url = 'api/v2/job_templates/107/launch/';&#13;
 var jsonTry =  new global.JSON();&#13;
 &#13;
 var reqNo = current.request.getDisplayValue();&#13;
@@ -811,23 +994,25 @@ var payLo = '{"extra_vars":{"Ticket":"' + reqNo +'","unispherehost":"' + unisphe
  var jobId = res['job'];&#13;
  workflow.scratchpad.jobId = jobId;&#13;
  var statusCode = rest.statusCode;&#13;
+ var errorMsg = rest.error;&#13;
+ workflow.scratchpad.errorMsg = errorMsg;&#13;
  workflow.scratchpad.statusCode = statusCode;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>59a8cdc72fce94102f22fcecf699b658</document_key>
+        <document_key>c4df84d0dbae10104c815c7a489619c3</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b658</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:35:50</sys_updated_on>
         <value>var id = "c10496c52f0210102f22fcecf699b663";&#13;
 var restApi = new awx_snow_restApi(id);&#13;
-var url = 'api/v2/job_templates/37/launch/';&#13;
+var url = 'api/v2/job_templates/107/launch/';&#13;
 var jsonTry =  new global.JSON();&#13;
 &#13;
 var reqNo = current.request.getDisplayValue();&#13;
@@ -852,11 +1037,13 @@ var payLo = '{"extra_vars":{"Ticket":"' + reqNo +'","unispherehost":"' + unisphe
  var jobId = res['job'];&#13;
  workflow.scratchpad.jobId = jobId;&#13;
  var statusCode = rest.statusCode;&#13;
+ var errorMsg = rest.error;&#13;
+ workflow.scratchpad.errorMsg = errorMsg;&#13;
  workflow.scratchpad.statusCode = statusCode;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Lanch the Ansible Script - Add Volume to SG">59a8cdc72fce94102f22fcecf699b658</activity>
+        <activity display_value="Lanch the Ansible Script - Add Volume to SG">c4df84d0dbae10104c815c7a489619c3</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -870,11 +1057,11 @@ var payLo = '{"extra_vars":{"Ticket":"' + reqNo +'","unispherehost":"' + unisphe
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b659</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -890,35 +1077,35 @@ var payLo = '{"extra_vars":{"Ticket":"' + reqNo +'","unispherehost":"' + unisphe
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="AWX get call to the SNOW ">4da84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="AWX get call to the SNOW ">c8df8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c5a8cdc72fce94102f22fcecf699b655</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>08df84d0dbae10104c815c7a489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
-        <x>490</x>
-        <y>80</y>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>742</x>
+        <y>19</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c5a8cdc72fce94102f22fcecf699b655"/>
+    <sys_variable_value action="delete_multiple" query="document_key=08df84d0dbae10104c815c7a489619da"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c5a8cdc72fce94102f22fcecf699b655</document_key>
+        <document_key>08df84d0dbae10104c815c7a489619da</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>49a8cdc72fce94102f22fcecf699b655</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>88df84d0dbae10104c815c7a489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var id = "c10496c52f0210102f22fcecf699b663";&#13;
 var restApi = new awx_snow_restApi(id);&#13;
-var jobVal = workflow.scratchpad.jobIdValue;&#13;
+var jobVal = workflow.scratchpad.jobIdVal;&#13;
 var jobUrl = "api/v2/jobs/" + jobVal + "/";&#13;
 var result = restApi.RESTCall(jobUrl, "get", "");&#13;
 var endValue = JSON.parse(result.responseBody);&#13;
@@ -929,18 +1116,18 @@ workflow.scratchpad.endRes = endRes;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c5a8cdc72fce94102f22fcecf699b655</document_key>
+        <document_key>08df84d0dbae10104c815c7a489619da</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>49a8cdc72fce94102f22fcecf699b655</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>88df84d0dbae10104c815c7a489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var id = "c10496c52f0210102f22fcecf699b663";&#13;
 var restApi = new awx_snow_restApi(id);&#13;
-var jobVal = workflow.scratchpad.jobIdValue;&#13;
+var jobVal = workflow.scratchpad.jobIdVal;&#13;
 var jobUrl = "api/v2/jobs/" + jobVal + "/";&#13;
 var result = restApi.RESTCall(jobUrl, "get", "");&#13;
 var endValue = JSON.parse(result.responseBody);&#13;
@@ -950,7 +1137,7 @@ workflow.scratchpad.endRes = endRes;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Launch the Ansible script - Run Job">c5a8cdc72fce94102f22fcecf699b655</activity>
+        <activity display_value="Launch the Ansible script - Run Job">08df84d0dbae10104c815c7a489619da</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -964,11 +1151,11 @@ workflow.scratchpad.endRes = endRes;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>41a8cdc72fce94102f22fcecf699b656</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>8cdf84d0dbae10104c815c7a489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -986,83 +1173,87 @@ workflow.scratchpad.endRes = endRes;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>01a84d872fce94102f22fcecf699b61b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:24</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:37:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
-        <x>231</x>
-        <y>411</y>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>229</x>
+        <y>405</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=01a84d872fce94102f22fcecf699b61b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=40df84d0dbae10104c815c7a489619d8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>01a84d872fce94102f22fcecf699b61b</document_key>
+        <document_key>40df84d0dbae10104c815c7a489619d8</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>05a84d872fce94102f22fcecf699b61b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619d8</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:24</sys_updated_on>
-        <value>gs.info("Parsing the failed msg");&#13;
- var id = "c10496c52f0210102f22fcecf699b663";&#13;
- var restApi = new awx_snow_restApi(id);&#13;
- var jobVal = workflow.scratchpad.jobIdValue;&#13;
- var url = 'api/v2/jobs/'+ jobVal +'/stdout/';&#13;
- var jsonTry =  new global.JSON();&#13;
- var rest = restApi.RESTCall(url, "get", "");&#13;
- var pattern = /FAILED[\W\s]+changed\\\"\s*:\s*false,\s*(\\\"msg\\\":\s*.*\\\")/&#13;
- var output = JSON.parse(rest.responseBody);&#13;
- var qry = JSON.stringify((output));&#13;
- if(qry.match(pattern)) {&#13;
-	var msg = qry.match(pattern);&#13;
-    workflow.scratchpad.msg = msg;&#13;
-	gs.info(msg);&#13;
-	}&#13;
- else{&#13;
-    gs.info('check for the failed msg in AWX');&#13;
- }</value>
+        <sys_updated_on>2020-08-06 09:37:08</sys_updated_on>
+        <value>// gs.info("Parsing the failed msg");&#13;
+//  var id = "c10496c52f0210102f22fcecf699b663";&#13;
+//  var restApi = new awx_snow_restApi(id);&#13;
+//  var jobVal = workflow.scratchpad.jobIdVal;&#13;
+//  var url = 'api/v2/jobs/'+ jobVal +'/stdout/';&#13;
+//  var jsonTry =  new global.JSON();&#13;
+//  var rest = restApi.RESTCall(url, "get", "");&#13;
+//  var pattern = /FAILED[\W\s]+changed\\\"\s*:\s*false,\s*(\\\"msg\\\":\s*.*\\\")/&#13;
+//  var output = JSON.parse(rest.responseBody);&#13;
+//  var qry = JSON.stringify((output));&#13;
+//  if(qry.match(pattern)) {&#13;
+// 	var msg = qry.match(pattern);&#13;
+//     workflow.scratchpad.msg = msg;&#13;
+// 	gs.info(msg);&#13;
+// 	}&#13;
+//  else{&#13;
+//     gs.info('check for the failed msg in AWX');&#13;
+//  }&#13;
+var msg = workflow.scratchpad.errorMsg;&#13;
+workflow.scratchpad.errorMsg = msg;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>01a84d872fce94102f22fcecf699b61b</document_key>
+        <document_key>40df84d0dbae10104c815c7a489619d8</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>05a84d872fce94102f22fcecf699b61b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619d8</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:24</sys_updated_on>
-        <value>gs.info("Parsing the failed msg");&#13;
- var id = "c10496c52f0210102f22fcecf699b663";&#13;
- var restApi = new awx_snow_restApi(id);&#13;
- var jobVal = workflow.scratchpad.jobIdValue;&#13;
- var url = 'api/v2/jobs/'+ jobVal +'/stdout/';&#13;
- var jsonTry =  new global.JSON();&#13;
- var rest = restApi.RESTCall(url, "get", "");&#13;
- var pattern = /FAILED[\W\s]+changed\\\"\s*:\s*false,\s*(\\\"msg\\\":\s*.*\\\")/&#13;
- var output = JSON.parse(rest.responseBody);&#13;
- var qry = JSON.stringify((output));&#13;
- if(qry.match(pattern)) {&#13;
-	var msg = qry.match(pattern);&#13;
-    workflow.scratchpad.msg = msg;&#13;
-	gs.info(msg);&#13;
-	}&#13;
- else{&#13;
-    gs.info('check for the failed msg in AWX');&#13;
- }</value>
+        <sys_updated_on>2020-08-06 09:37:08</sys_updated_on>
+        <value>// gs.info("Parsing the failed msg");&#13;
+//  var id = "c10496c52f0210102f22fcecf699b663";&#13;
+//  var restApi = new awx_snow_restApi(id);&#13;
+//  var jobVal = workflow.scratchpad.jobIdVal;&#13;
+//  var url = 'api/v2/jobs/'+ jobVal +'/stdout/';&#13;
+//  var jsonTry =  new global.JSON();&#13;
+//  var rest = restApi.RESTCall(url, "get", "");&#13;
+//  var pattern = /FAILED[\W\s]+changed\\\"\s*:\s*false,\s*(\\\"msg\\\":\s*.*\\\")/&#13;
+//  var output = JSON.parse(rest.responseBody);&#13;
+//  var qry = JSON.stringify((output));&#13;
+//  if(qry.match(pattern)) {&#13;
+// 	var msg = qry.match(pattern);&#13;
+//     workflow.scratchpad.msg = msg;&#13;
+// 	gs.info(msg);&#13;
+// 	}&#13;
+//  else{&#13;
+//     gs.info('check for the failed msg in AWX');&#13;
+//  }&#13;
+var msg = workflow.scratchpad.errorMsg;&#13;
+workflow.scratchpad.errorMsg = msg;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Parsing the failed msg">01a84d872fce94102f22fcecf699b61b</activity>
+        <activity display_value="Parsing the failed msg">40df84d0dbae10104c815c7a489619d8</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1076,11 +1267,11 @@ workflow.scratchpad.endRes = endRes;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>8da84d872fce94102f22fcecf699b61b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1098,34 +1289,34 @@ workflow.scratchpad.endRes = endRes;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>99a8cdc72fce94102f22fcecf699b65d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>8cdf84d0dbae10104c815c7a489619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:02</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>604</x>
         <y>290</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=99a8cdc72fce94102f22fcecf699b65d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8cdf84d0dbae10104c815c7a489619d8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>99a8cdc72fce94102f22fcecf699b65d</document_key>
+        <document_key>8cdf84d0dbae10104c815c7a489619d8</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>1da8cdc72fce94102f22fcecf699b65d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:02</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>gs.info("Parsing the failed msg");&#13;
  var id = "c10496c52f0210102f22fcecf699b663";&#13;
  var restApi = new awx_snow_restApi(id);&#13;
- var jobVal = workflow.scratchpad.jobIdValue;&#13;
+ var jobVal = workflow.scratchpad.jobIdVal;&#13;
  var url = 'api/v2/jobs/'+ jobVal + '/stdout/';&#13;
  var jsonTry =  new global.JSON();&#13;
  var rest = restApi.RESTCall(url, "get", "");&#13;
@@ -1144,19 +1335,19 @@ workflow.scratchpad.endRes = endRes;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>99a8cdc72fce94102f22fcecf699b65d</document_key>
+        <document_key>8cdf84d0dbae10104c815c7a489619d8</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>1da8cdc72fce94102f22fcecf699b65d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:18:02</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>gs.info("Parsing the failed msg");&#13;
  var id = "c10496c52f0210102f22fcecf699b663";&#13;
  var restApi = new awx_snow_restApi(id);&#13;
- var jobVal = workflow.scratchpad.jobIdValue;&#13;
+ var jobVal = workflow.scratchpad.jobIdVal;&#13;
  var url = 'api/v2/jobs/'+ jobVal + '/stdout/';&#13;
  var jsonTry =  new global.JSON();&#13;
  var rest = restApi.RESTCall(url, "get", "");&#13;
@@ -1174,7 +1365,7 @@ workflow.scratchpad.endRes = endRes;</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Parsing the failed msg">99a8cdc72fce94102f22fcecf699b65d</activity>
+        <activity display_value="Parsing the failed msg">8cdf84d0dbae10104c815c7a489619d8</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1188,11 +1379,11 @@ workflow.scratchpad.endRes = endRes;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>15a8cdc72fce94102f22fcecf699b65e</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1208,51 +1399,51 @@ workflow.scratchpad.endRes = endRes;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Completion">49a84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="Request Completion">c4df8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c9a84d872fce94102f22fcecf699b619</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c8df84d0dbae10104c815c7a489619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>988</x>
         <y>216</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c9a84d872fce94102f22fcecf699b619"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c8df84d0dbae10104c815c7a489619d9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c9a84d872fce94102f22fcecf699b619</document_key>
+        <document_key>c8df84d0dbae10104c815c7a489619d9</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>cda84d872fce94102f22fcecf699b619</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>state=3^work_notes=The request completed successfully^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c9a84d872fce94102f22fcecf699b619</document_key>
+        <document_key>c8df84d0dbae10104c815c7a489619d9</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>cda84d872fce94102f22fcecf699b619</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>state=3^work_notes=The request completed successfully^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Request Complete">c9a84d872fce94102f22fcecf699b619</activity>
+        <activity display_value="Request Complete">c8df84d0dbae10104c815c7a489619d9</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1266,11 +1457,11 @@ workflow.scratchpad.endRes = endRes;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>49a84d872fce94102f22fcecf699b61a</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1286,32 +1477,32 @@ workflow.scratchpad.endRes = endRes;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Completion">49a84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="Request Completion">c4df8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>45a84d872fce94102f22fcecf699b61c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>730</x>
         <y>438</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=45a84d872fce94102f22fcecf699b61c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=00df84d0dbae10104c815c7a489619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b61c</document_key>
+        <document_key>00df84d0dbae10104c815c7a489619c6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c5a84d872fce94102f22fcecf699b61c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var req = new GlideRecord('sc_request');&#13;
 req.addQuery('sys_id', current.request);&#13;
 req.query();&#13;
@@ -1324,15 +1515,15 @@ while (req.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>45a84d872fce94102f22fcecf699b61c</document_key>
+        <document_key>00df84d0dbae10104c815c7a489619c6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>c5a84d872fce94102f22fcecf699b61c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var req = new GlideRecord('sc_request');&#13;
 req.addQuery('sys_id', current.request);&#13;
 req.query();&#13;
@@ -1344,7 +1535,7 @@ while (req.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Request Incomplete">45a84d872fce94102f22fcecf699b61c</activity>
+        <activity display_value="Request Incomplete">00df84d0dbae10104c815c7a489619c6</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1358,11 +1549,11 @@ while (req.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>cda84d872fce94102f22fcecf699b61c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1378,32 +1569,32 @@ while (req.next()) {&#13;
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Request Completion">49a84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="Request Completion">c4df8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>09a8cdc72fce94102f22fcecf699b657</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>4cdf84d0dbae10104c815c7a489619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
         <x>1170</x>
         <y>258</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=09a8cdc72fce94102f22fcecf699b657"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4cdf84d0dbae10104c815c7a489619ca"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>09a8cdc72fce94102f22fcecf699b657</document_key>
+        <document_key>4cdf84d0dbae10104c815c7a489619ca</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>89a8cdc72fce94102f22fcecf699b657</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var req = new GlideRecord('sc_request');&#13;
 req.addQuery('sys_id', current.request);&#13;
 req.query();&#13;
@@ -1416,15 +1607,15 @@ while (req.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>09a8cdc72fce94102f22fcecf699b657</document_key>
+        <document_key>4cdf84d0dbae10104c815c7a489619ca</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>89a8cdc72fce94102f22fcecf699b657</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>var req = new GlideRecord('sc_request');&#13;
 req.addQuery('sys_id', current.request);&#13;
 req.query();&#13;
@@ -1436,7 +1627,7 @@ while (req.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Script to close the Request">09a8cdc72fce94102f22fcecf699b657</activity>
+        <activity display_value="Script to close the Request">4cdf84d0dbae10104c815c7a489619ca</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1450,469 +1641,469 @@ while (req.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>81a8cdc72fce94102f22fcecf699b658</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>4</databus_lookup_id>
+        <databus_lookup_id>16</databus_lookup_id>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Waiting for the call to complete</name>
+        <name>Timer - Default 30 sec</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="waiting for the AWX request to complete">cda84d872fce94102f22fcecf699b615</stage>
+        <stage display_value="waiting for the AWX request to complete">ccdf8890dbae10104c815c7a489619e3</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b659</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
-        <x>226</x>
-        <y>19</y>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
+        <x>488</x>
+        <y>26</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=d9a8cdc72fce94102f22fcecf699b659"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0cdf84d0dbae10104c815c7a489619bf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1320</order>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>11a8cdc72fce94102f22fcecf699b65c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>15a8cdc72fce94102f22fcecf699b65b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>19a8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>51a8cdc72fce94102f22fcecf699b65b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>55a8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>59a8cdc72fce94102f22fcecf699b65c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>5da8cdc72fce94102f22fcecf699b65b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>91a8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>95a8cdc72fce94102f22fcecf699b65c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value>script</value>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>99a8cdc72fce94102f22fcecf699b65b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>9da8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1360</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b65c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d5a8cdc72fce94102f22fcecf699b65b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>08df84d0dbae10104c815c7a489619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>3000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b65a</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 var jobIdVal = workflow.scratchpad.jobId;&#13;
-workflow.scratchpad.jobIdValue = jobIdVal;&#13;
-answer = 120;</value>
+workflow.scratchpad.jobIdVal = jobIdVal;&#13;
+answer = 30;</value>
         <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>dda8cdc72fce94102f22fcecf699b659</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>95a8cdc72fce94102f22fcecf699b65c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value>script</value>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>dda8cdc72fce94102f22fcecf699b659</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>19a8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>91a8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>9da8cdc72fce94102f22fcecf699b65a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>51a8cdc72fce94102f22fcecf699b65b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>15a8cdc72fce94102f22fcecf699b65b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>11a8cdc72fce94102f22fcecf699b65c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1320</order>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>5da8cdc72fce94102f22fcecf699b65b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>44df84d0dbae10104c815c7a489619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>55a8cdc72fce94102f22fcecf699b65a</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>59a8cdc72fce94102f22fcecf699b65c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>88df84d0dbae10104c815c7a489619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1360</order>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b65c</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>8cdf84d0dbae10104c815c7a489619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
-        <order>1360</order>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d5a8cdc72fce94102f22fcecf699b65b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>script</value>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>99a8cdc72fce94102f22fcecf699b65b</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c8df84d0dbae10104c815c7a489619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value/>
         <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d9a8cdc72fce94102f22fcecf699b659</document_key>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>script</value>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>80df84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>44df84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>8cdf84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>88df84d0dbae10104c815c7a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>08df84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c8df84d0dbae10104c815c7a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0cdf84d0dbae10104c815c7a489619bf</document_key>
         <order>3000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b65a</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 var jobIdVal = workflow.scratchpad.jobId;&#13;
-workflow.scratchpad.jobIdValue = jobIdVal;&#13;
-answer = 120;</value>
+workflow.scratchpad.jobIdVal = jobIdVal;&#13;
+answer = 30;</value>
         <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Waiting for the call to complete">d9a8cdc72fce94102f22fcecf699b659</activity>
+        <activity display_value="Timer - Default 30 sec">0cdf84d0dbae10104c815c7a489619bf</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1926,179 +2117,201 @@ answer = 120;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b65d</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>8cdf84d0dbae10104c815c7a489619c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">81a8cdc72fce94102f22fcecf699b658</condition>
-        <from display_value="Script to close the Request">09a8cdc72fce94102f22fcecf699b657</from>
+        <condition display_value="Always">c0df84d0dbae10104c815c7a489619c7</condition>
+        <from display_value="Complete - Failure">4cdf84d0dbae10104c815c7a489619c6</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>11a8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>00df84d0dbae10104c815c7a489619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="End">09a8cdc72fce94102f22fcecf699b656</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Request Incomplete">00df84d0dbae10104c815c7a489619c6</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d5a8cdc72fce94102f22fcecf699b660</condition>
-        <from display_value="Complete - Failure">5da8cdc72fce94102f22fcecf699b65f</from>
+        <condition display_value="Always">84df84d0dbae10104c815c7a489619ca</condition>
+        <from display_value="Begin">c0df84d0dbae10104c815c7a489619ca</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>19a8cdc72fce94102f22fcecf699b670</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>04df84d0dbae10104c815c7a489619de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Request Incomplete">45a84d872fce94102f22fcecf699b61c</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Lanch the Ansible Script - Add Volume to SG">c4df84d0dbae10104c815c7a489619c3</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">8da84d872fce94102f22fcecf699b61b</condition>
-        <from display_value="Parsing the failed msg">01a84d872fce94102f22fcecf699b61b</from>
+        <condition display_value="Always">c4df84d0dbae10104c815c7a489619d8</condition>
+        <from display_value="Parsing the failed msg">40df84d0dbae10104c815c7a489619d8</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>19a8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Complete - Failure">5da8cdc72fce94102f22fcecf699b65f</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Complete - Failure">4cdf84d0dbae10104c815c7a489619c6</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d1a8cdc72fce94102f22fcecf699b659</condition>
-        <from display_value="Lanch the Ansible Script - Add Volume to SG">59a8cdc72fce94102f22fcecf699b658</from>
+        <condition display_value="Always">4cdf84d0dbae10104c815c7a489619c3</condition>
+        <from display_value="Lanch the Ansible Script - Add Volume to SG">c4df84d0dbae10104c815c7a489619c3</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>51a8cdc72fce94102f22fcecf699b672</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Waiting for the call to complete">d9a8cdc72fce94102f22fcecf699b659</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Check the status Code">04df84d0dbae10104c815c7a489619c4</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">49a84d872fce94102f22fcecf699b61a</condition>
-        <from display_value="Request Complete">c9a84d872fce94102f22fcecf699b619</from>
+        <condition display_value="Always">c0df84d0dbae10104c815c7a489619cb</condition>
+        <from display_value="Script to close the Request">4cdf84d0dbae10104c815c7a489619ca</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>55a8cdc72fce94102f22fcecf699b670</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>0cdf84d0dbae10104c815c7a489619de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Script to close the Request">09a8cdc72fce94102f22fcecf699b657</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="End">08df84d0dbae10104c815c7a489619c5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">55a8cdc72fce94102f22fcecf699b66e</condition>
-        <from display_value="Check the status Code">9da8cdc72fce94102f22fcecf699b660</from>
+        <condition display_value="Yes">80df84d0dbae10104c815c7a489619c5</condition>
+        <from display_value="Check the status Code">04df84d0dbae10104c815c7a489619c4</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>55a8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Parsing the failed msg">01a84d872fce94102f22fcecf699b61b</to>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <to display_value="Timer - Default 30 sec">0cdf84d0dbae10104c815c7a489619bf</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">81a84d872fce94102f22fcecf699b619</condition>
-        <from display_value="AWX call back status">45a84d872fce94102f22fcecf699b617</from>
+        <condition display_value="Yes">84df84d0dbae10104c815c7a489619c8</condition>
+        <from display_value="AWX call back status - Running">88df84d0dbae10104c815c7a489619c7</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>5da8cdc72fce94102f22fcecf699b670</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>40df84d0dbae10104c815c7a489619de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Parsing the failed msg">99a8cdc72fce94102f22fcecf699b65d</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Timer - Default 30 sec">0cdf84d0dbae10104c815c7a489619bf</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">cda84d872fce94102f22fcecf699b61c</condition>
-        <from display_value="Request Incomplete">45a84d872fce94102f22fcecf699b61c</from>
+        <condition display_value="Always">84df84d0dbae10104c815c7a489619c6</condition>
+        <from display_value="Request Incomplete">00df84d0dbae10104c815c7a489619c6</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>91a8cdc72fce94102f22fcecf699b670</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="End">09a8cdc72fce94102f22fcecf699b656</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="End">08df84d0dbae10104c815c7a489619c5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d1a8cdc72fce94102f22fcecf699b65d</condition>
-        <from display_value="Waiting for the call to complete">d9a8cdc72fce94102f22fcecf699b659</from>
+        <condition display_value="Always">40df84d0dbae10104c815c7a489619da</condition>
+        <from display_value="Request Complete">c8df84d0dbae10104c815c7a489619d9</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>9da8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Check the status Code">9da8cdc72fce94102f22fcecf699b660</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Script to close the Request">4cdf84d0dbae10104c815c7a489619ca</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">d5a8cdc72fce94102f22fcecf699b66e</condition>
-        <from display_value="Check the status Code">9da8cdc72fce94102f22fcecf699b660</from>
+        <condition display_value="Yes">c8df84d0dbae10104c815c7a489619c9</condition>
+        <from display_value="AWX call back status - Completed">ccdf84d0dbae10104c815c7a489619c8</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d1a8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>48df84d0dbae10104c815c7a489619de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Launch the Ansible script - Run Job">c5a8cdc72fce94102f22fcecf699b655</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Request Complete">c8df84d0dbae10104c815c7a489619d9</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">41a8cdc72fce94102f22fcecf699b656</condition>
-        <from display_value="Launch the Ansible script - Run Job">c5a8cdc72fce94102f22fcecf699b655</from>
+        <condition display_value="Always">8cdf84d0dbae10104c815c7a489619c2</condition>
+        <from display_value="Timer - Default 30 sec">0cdf84d0dbae10104c815c7a489619bf</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b66f</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="AWX call back status">45a84d872fce94102f22fcecf699b617</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Launch the Ansible script - Run Job">08df84d0dbae10104c815c7a489619da</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">01a84d872fce94102f22fcecf699b619</condition>
-        <from display_value="AWX call back status">45a84d872fce94102f22fcecf699b617</from>
+        <condition display_value="Always">8cdf84d0dbae10104c815c7a489619da</condition>
+        <from display_value="Launch the Ansible script - Run Job">08df84d0dbae10104c815c7a489619da</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b670</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>84df84d0dbae10104c815c7a489619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Request Complete">c9a84d872fce94102f22fcecf699b619</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="AWX call back status - Running">88df84d0dbae10104c815c7a489619c7</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">15a8cdc72fce94102f22fcecf699b65e</condition>
-        <from display_value="Parsing the failed msg">99a8cdc72fce94102f22fcecf699b65d</from>
+        <condition display_value="No">00df84d0dbae10104c815c7a489619c5</condition>
+        <from display_value="Check the status Code">04df84d0dbae10104c815c7a489619c4</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>d9a8cdc72fce94102f22fcecf699b671</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Complete - Failure">5da8cdc72fce94102f22fcecf699b65f</to>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <to display_value="Parsing the failed msg">40df84d0dbae10104c815c7a489619d8</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">95a8cdc72fce94102f22fcecf699b65f</condition>
-        <from display_value="Begin">d9a8cdc72fce94102f22fcecf699b65e</from>
+        <condition display_value="Always">04df84d0dbae10104c815c7a489619d9</condition>
+        <from display_value="Parsing the failed msg">8cdf84d0dbae10104c815c7a489619d8</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>dda8cdc72fce94102f22fcecf699b66f</sys_id>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>c0df84d0dbae10104c815c7a489619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <to display_value="Lanch the Ansible Script - Add Volume to SG">59a8cdc72fce94102f22fcecf699b658</to>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Complete - Failure">4cdf84d0dbae10104c815c7a489619c6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4cdf84d0dbae10104c815c7a489619c9</condition>
+        <from display_value="AWX call back status - Completed">ccdf84d0dbae10104c815c7a489619c8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>c4df84d0dbae10104c815c7a489619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="Parsing the failed msg">8cdf84d0dbae10104c815c7a489619d8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">08df84d0dbae10104c815c7a489619c8</condition>
+        <from display_value="AWX call back status - Running">88df84d0dbae10104c815c7a489619c7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-06 09:34:09</sys_created_on>
+        <sys_id>ccdf84d0dbae10104c815c7a489619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 09:34:09</sys_updated_on>
+        <to display_value="AWX call back status - Completed">ccdf84d0dbae10104c815c7a489619c8</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 06:14:20</sys_created_on>
-        <sys_id>01a84d872fce94102f22fcecf699b614</sys_id>
+        <sys_created_on>2020-08-06 09:34:08</sys_created_on>
+        <sys_id>c0df8890dbae10104c815c7a489619e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 06:14:20</sys_updated_on>
-        <workflow_version display_value="Delete_unreplicated_lun_from_unity">0da84d872fce94102f22fcecf699b613</workflow_version>
+        <sys_updated_on>2020-08-06 09:34:08</sys_updated_on>
+        <workflow_version display_value="Delete_unreplicated_lun_from_unity">40df8890dbae10104c815c7a489619e2</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=cc4ea9222f7510502f22fcecf699b68a^sys_id!=0da84d872fce94102f22fcecf699b613">
+    <wf_workflow_version action="update_multiple" query="workflow=cc4ea9222f7510502f22fcecf699b68a^sys_id!=40df8890dbae10104c815c7a489619e2">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
